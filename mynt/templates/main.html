@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            {{ title }}
+        </title>
+        <link rel="shortcut icon" href="{% static 'media/favicon.ico' %}" type="image/x-icon">
+    </head>
+    <body>
+        {% include "sidebar/sidebar.html" %}
+        {% block body%}
+        {% endblock %}
+        {% include "footer/footer.html" %}
+    </body>
+</html>
