@@ -1,3 +1,6 @@
 # mynt.is
 
-test
+## To run
+```
+    py -m flask --app mynt run
+```
