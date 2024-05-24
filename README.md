@@ -1,1 +1,3 @@
 # mynt.is
+
+test
