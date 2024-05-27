@@ -1,9 +1,31 @@
 {% load static %}
-
-<div class="sidebar">
-    <a href="/tilgangur">Tilgangur Félagsins</a>
-    <a href="/uppbod">Uppboðsmarkaður</a>
-    <a href="/umsokn">Umsókn</a>
-    <a href="/hlekkir">Hlekkir</a>
-    <a href="/">Heim</a>
+<button id="sidebar-button" class="sidebar-button" onclick="toggleSidebar()">
+    sidebar-button
+</button>
+<div id="sidebar" class="sidebar-container">
+    <a href="/tilgangur">
+    <div class="sidebar-link">
+            Tilgangur Félagsins
+        </div>
+    </a>
+    <a href="/uppbod">
+    <div class="sidebar-link">
+            Uppboðsmarkaður
+        </div>
+    </a>
+    <a href="/umsokn">
+    <div class="sidebar-link">
+            Umsókn
+        </div>
+    </a>
+    <a href="/hlekkir">
+    <div class="sidebar-link">
+            Hlekkir
+        </div>
+    </a>
+    <a href="/">
+    <div class="sidebar-link" href = "/">
+            Heim
+        </div>
+    </a>
 </div>

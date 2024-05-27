@@ -66,6 +66,10 @@ TEMPLATES = [
         },
     },
 ]
+STATICFILES_DIRS = [
+    "static"
+]
+
 
 WSGI_APPLICATION = 'mynt.wsgi.application'
 

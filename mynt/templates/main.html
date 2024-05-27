@@ -8,11 +8,18 @@
             {{ title }}
         </title>
         <link rel="shortcut icon" href="{% static 'media/favicon.ico' %}" type="image/x-icon">
+        <link rel="stylesheet" href="{% static 'style/style.css' %}">
     </head>
     <body>
         {% include "sidebar/sidebar.html" %}
-        {% block body%}
-        {% endblock %}
-        {% include "footer/footer.html" %}
+        <div class="main-content">
+            {% include "header/header.html" %}
+            
+            {% block body%}
+            {% endblock %}
+            
+            {% include "footer/footer.html" %}
+        </div>
+        <script type="text/javascript" src="{% static 'js/sidebar.js' %}"></script>
     </body>
 </html>
