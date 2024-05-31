@@ -136,7 +136,7 @@ header {
     top: 0;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.9, 0, 0.1, 1);
-    width: 200px;
+    width: 300px;
     z-index: 1;
   }
   
