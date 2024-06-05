@@ -95,8 +95,19 @@ footer {
     font-weight: bold;
     font-size: small;
 }
+
+/*
 header {
     text-align: center;
+}*/
+
+header {
+  position: sticky;
+  top: 0em;
+  z-index: 1;
+  background-color: #0f0;
+  text-align: center;
+  padding: 1em;
 }
 
 
