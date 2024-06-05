@@ -7,14 +7,16 @@
   }
 
 /*--------------------------------------------*/
-.navlinks{
 
-}
+
+/*.navlinks{
+
+}*/
 
 .navlinks a{
     text-decoration: none;
     font-family: BebasNeue-Regular;
-    font-size: 17px;
+    /*font-size: 17px;*/
     text-align: center;
 }
 
@@ -22,9 +24,11 @@
     color: rgb(255,149,0);
 }
 
+/*
 .navlinks a.active{
 
 }
+*/
 
 /*--------------------------------------------*/
 
@@ -55,7 +59,7 @@
     background-color: beige;
     padding-top: .5em;
     padding-bottom: .5em;
-    font-size: large;
+    /*font-size: large;*/
     transition: background-color .1s;
 }
 .sidebar-link:hover {
@@ -106,10 +110,13 @@ header {
     overflow: hidden;
     position: relative;
     width: 300px;
+    font-size: 30px; /* font size ekki viss ef used */
+    
   }
   
   .menu-burger > * {
     position: absolute;
+    font-size: 30px; /* mikilvaegt fyrir font size */
   }
   
   .menu-burger input {
