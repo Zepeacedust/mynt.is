@@ -109,12 +109,18 @@ header {
 header {
   position: sticky;
   top: 0em;
-  z-index: 1;
+  z-index: -1; /*var 1*/
   background-color: rgb(167, 0, 0);
   text-align: center;
   padding: 1em;
 }
 
+/*------------temp things---------*/
+
+.centerererere{
+  align-self: center;
+  text-align: center;
+}
 
 
 
@@ -125,14 +131,17 @@ header {
     color: #ebdbb2;
     height: 200px;
     overflow: hidden;
-    position: relative;
+    position: relative;/*originally relative*/
     width: 300px;
     font-size: 30px; /* font size ekki viss ef used */
   }
   
   .menu-burger > * {
-    position: absolute; /*var absolute tharf ad messa i fyrir sticky header liklegast*/
-    font-size: 30px; /* mikilvaegt fyrir font size */
+    /*position: absolute; /*var absolute tharf ad messa i fyrir sticky header liklegast*/
+    position: absolute;
+    /*left: 50px; VAR AÐ REYNA repositiona hvar eg get haft borgarann sjalfann an einhvers results.........*/
+    /*font-size: 30px; /* mikilvaegt fyrir font size */
+    font-size:1.7vw; /*aetti að vera með reactive font sem breytir staerd*/
   }
   
   .menu-burger input {
@@ -144,13 +153,13 @@ header {
   }
   
   .menu-burger svg {
-    height: 32px;
+    height: 32px; /*og 32px (breytir straerd a hamburger)*/
     width: 32px;
     z-index: 2;
   }
   
   ul.menu-burger__item-list {
-    background: #ebdbb2;
+    background: rgb(167, 0, 0);/*#ebdbb2;*/
     bottom: 0;
     color: #3c3836;
     list-style: none;
@@ -162,6 +171,7 @@ header {
     width: 300px;
     z-index: 1;
     
+    padding-top: 10%;/*til ad messa i hvar fontid er i menuinu*/
   }
   
   input:checked ~ .menu-burger__item-list {
