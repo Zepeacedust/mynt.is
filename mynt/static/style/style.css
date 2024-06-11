@@ -35,14 +35,10 @@
 
 
 .sidebar-container {
-    position: fixed;
-    z-index: 1030;
-    transform: translateX(-280px);
-    transition: transform .25s;
-    width: 280px;
-    background-color: salmon;
-    height: 100%;
+    position: sticky;
+    top: 0em;
 }
+
 .sidebar-show {
     transform: translateX(0px);
 }
