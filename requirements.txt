@@ -1,1 +1,2 @@
 django
+django-markdownx==4.0.7

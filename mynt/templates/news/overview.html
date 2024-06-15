@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+{% block body %}
+
+{% for post in posts %}
+<hr>
+<a href="/news/post/{{post.slug}}">
+    <h1> {{ post.title }} </h1>
+</a>
+Author: {{ post.author.name }}
+
+{% endfor %}
+<hr>
+{% endblock %}
