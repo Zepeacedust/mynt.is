@@ -167,7 +167,7 @@ header {
     transition: transform 0.5s cubic-bezier(0.9, 0, 0.1, 1);
     width: 300px;
     z-index: 1;
-    
+    text-align: left;
     padding-top: 10%;/*til ad messa i hvar fontid er i menuinu*/
   }
   
