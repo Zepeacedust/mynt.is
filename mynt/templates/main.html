@@ -10,24 +10,17 @@
         <link rel="shortcut icon" href="{% static 'media/favicon.ico' %}" type="image/x-icon">
         <link rel="stylesheet" href="{% static 'style/style.css' %}">
     </head>
-    
     <body>
-        
-        <h1 class="centerererere">Insert Static Image and text Here</h1>
         {% include "sidebar/sidebar.html" %}
         {% include "header/header.html" %}
         
         <div class="main-content">
-            
-            
-            
-
             
             {% block body%}
             {% endblock %}
             
             {% include "footer/footer.html" %}
         </div>
-        <!--<script type="text/javascript" src="{% static 'js/sidebar.js' %}"></script>-->
+        <script type="text/javascript" src="{% static 'js/sidebar.js' %}"></script>
     </body>
 </html>

@@ -39,7 +39,6 @@
   top: 0em;
   z-index: 2;
 }
-
 .sidebar-show {
   transform: translateX(0px);
 }
@@ -92,8 +91,6 @@ footer {
   font-weight: bold;
   font-size: small;
 }
-
-/*
 header {
   text-align: center;
 }*/
@@ -121,7 +118,8 @@ text-align: center;
 
 
 
-/*---------------------Hamburger-----------------------*/
+
+/*--------------*/
 
 .example {
   background: #3c3836;
