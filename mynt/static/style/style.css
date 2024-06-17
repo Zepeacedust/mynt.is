@@ -66,11 +66,11 @@
 html {
   background-color: #eee;
 }
-
+/*         tok ut utaf timeline
 body {
   margin: 0;
   min-height: 100%;
-}
+}*/
 
 .main-content {
   min-width: 32em;
@@ -208,4 +208,131 @@ input:checked ~ .menu-burger__item-list {
 .menu-burger input:checked ~ svg line:nth-of-type(3) {
   transform: translate(0, -6px) rotate(-45deg);
 }
-/*--------------------------------------------*/
+
+
+
+
+
+/*----------------------FYRIR TIMELINE----------------------*/
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 100%;
+  width: 3px;
+  background-color: #FF9F55;
+  position: absolute;
+  left: 97%;
+  top: 0;
+  z-index: -1;
+}
+
+.right::before {
+  content: " ";
+  height: 100%;
+  width: 3px;
+  background-color: #FF9F55;
+  position: absolute;
+  left: -3%;
+  top: 0;
+  z-index: -1;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.content h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.content p {
+  color: #777;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 767px) {
+  .timeline::before {
+      left: 31px;
+  }
+
+  .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+  }
+
+  .container::after {
+      left: 60px;
+  }
+
+  .left::before, .right::before {
+      left: 60px;
+  }
+
+  .right {
+      left: 0;
+  }
+
+  .right::after {
+      left: 60px;
+  }
+}
