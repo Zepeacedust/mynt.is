@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-17 22:33+0000\n"
+"POT-Creation-Date: 2024-06-18 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: mynt/settings.py:121
 msgid "Icelandic"
 msgstr ""
@@ -25,6 +26,656 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: templates/frontpage/index.html:20
-msgid "TEXT FOR TRANSLATION"
+#: templates/frontpage/index.html:7
+msgid ""
+"<b>Myntsafnarafélag Íslands</b> er öflugur vettvangur safnara á Íslandi. Ef "
+"þú safnar t.d. mynt, seðlum, tunnumerkjum, einkagjaldmiðlum, minnispeningum, "
+"einkennismerkjum, prjónmerkjum, orðum, hlutabréfum, póstkortum eða öðru "
+"forvitnilegu, er MÍ rétti félagsskapurinn fyrir þig. Innan MÍ eru áhugasamir "
+"safnarar á öllum þessum og ótal fleiri sviðum. Allir hjartanlega velkomnir."
 msgstr ""
+"<b>The Icelandic Numismatic Association</b> (INA) is an important forum for "
+"collectors inIceland. If you collect items such as coins, notes, herring-"
+"barrel-tags, private currencies,commemorative coins, badges, pins, stamps, "
+"stocks, postcards, or other curiosities, INA is theright association for "
+"you. Within INA, there are enthusiastic collectors in all these fields "
+"andcountless more. Everyone is welcome."
+
+#: templates/frontpage/index.html:17
+msgid "Stjórn Myntsafnarafélags Íslands 2024"
+msgstr "Board of directors if The Icelandic Numismatic Association 2024"
+
+#: templates/frontpage/index.html:28
+msgid "Skoðunarmenn reikninga"
+msgstr "Auditors of Accounts"
+
+#: templates/frontpage/index.html:35
+msgid "Uppstillingarnefnd, skipuð af stjórn"
+msgstr "Nomination Committe, appointed by the board"
+
+#: templates/frontpage/index.html:42
+msgid "Uppboðsnefnd, skipuð af stjórn"
+msgstr "Auction Comittee, appointed by the board"
+
+#: templates/frontpage/index.html:49
+msgid ""
+"Félagsmenn geta lagt inn muni á mánaðarleg uppboð félagsins. Fjölbreytt efni "
+"er boðið upp á hverju uppboði. Ástand muna getur verið á ýmsa vegu, frá því "
+"að vera mikið notað og til að vera alveg ónotað."
+msgstr ""
+"Members of INA can put objects up for auction at the association's "
+"monthly auctions. Avariety of materials are offered at each auction. Items "
+"can be in a range of conditions, fromheavily used to completely unused."
+
+#: templates/frontpage/index.html:57
+msgid ""
+"Ef að félagar MÍ vilja selja muni á uppboðum félagsins er þeim bent á að "
+"hafa samband viðuppboðsnefndina:"
+msgstr ""
+"If INA members want to sell items at the association's auctions, they "
+"are advised to contact the auction committee:"
+
+#: templates/frontpage/index.html:64
+msgid ""
+"Einnig er hægt að senda póst á netfangið: <a href=\"mailto:"
+"myntsafnarafelagid@gmail.com\">myntsafnarafelagid@gmail.com</a> og spyrjast "
+"fyrir. Öllum póstum er svarað."
+msgstr ""
+"You can also send an email to <a href=\"mailto:myntsafnarafelagid@gmail."
+"com\">myntsafnarafelagid@gmail.com</a>All emails are answered."
+
+#: templates/frontpage/index.html:73
+msgid ""
+"Þeir sem vilja koma einhverju á framfæri í blaðið Mynt er bent á að senda "
+"póst á netfangið: <a href=\"mailto:myntsafnarafelagid@gmail."
+"com\">myntsafnarafelagid@gmail.com</a>"
+msgstr ""
+"Those who want to convey material to the Mynt-journal are advised to send an "
+"email to: <a href=\"mailto:myntsafnarafelagid@gmail."
+"com\">myntsafnarafelagid@gmail.com</a>"
+
+#: templates/frontpage/index.html:79
+msgid "Fyrrum formenn MÍ, gjaldkerar og ritarar"
+msgstr "Former INA Chairmen, Secretaries, and Treasurers"
+
+#: templates/frontpage/index.html:80
+msgid "Formenn:"
+msgstr "Chairmen:"
+
+#: templates/frontpage/index.html:100
+msgid "Ritarar"
+msgstr "Secretaries"
+
+#: templates/frontpage/index.html:117
+msgid "Gjaldkerar"
+msgstr "Treasurers"
+
+#: templates/frontpage/index.html:130
+msgid "Heiðursfélagar Myntsafnarafélags Íslands"
+msgstr "Honorary Members of The Icelandic Numismatic Association"
+
+#: templates/frontpage/index.html:144
+msgid "Minnispeningar Myntsafnarafélags Íslands (Útgáfuár og tilefni útgáfu)"
+msgstr ""
+"Commemorative Coins of The Icelandic Numismatic Association (Year of "
+"publication and occasion of publication)"
+
+#: templates/frontpage/index.html:146
+msgid "1979: 10 ára afmæli MÍ."
+msgstr "1979: 10th anniversary of INA"
+
+#: templates/frontpage/index.html:147
+msgid "1989: 20 ára afmæli MÍ og þing Norræna myntsambandsins í Reykjavík."
+msgstr ""
+"1989: 20th anniversary of INA and the meeting of the Nordic Numismatic Union "
+"in Reykjavík"
+
+#: templates/frontpage/index.html:148
+msgid "1994: 25 ára afmæli MÍ."
+msgstr "1994: 25th anniversary of INA"
+
+#: templates/frontpage/index.html:149
+msgid "1997: Sýning MÍ í Hafnarborg."
+msgstr "1997: INA exhibition in Hafnarborg"
+
+#: templates/frontpage/index.html:150
+msgid "2003: Þing Norræna myntsambandsins í Reykjavík."
+msgstr "2003: Congress of the Nordic Numismatic Union in Reykjavík"
+
+#: templates/frontpage/index.html:151
+msgid "2009: 40 ára afmæli MÍ."
+msgstr "2009: 40th anniversary of INA"
+
+#: templates/frontpage/index.html:152
+msgid "2012: Sýning MÍ í Norræna húsinu."
+msgstr "2012: INA exhibition in the Nordic House"
+
+#: templates/frontpage/index.html:153
+msgid "2019: 50 ára afmæli MÍ og sýning í sal Ferðafélags Íslands."
+msgstr "2019: 50th anniversary of INA and an exhibition in the hall of the Iceland Touring Association"
+
+#: templates/frontpage/saga.html:7
+msgid "Víðfeðmur og frjór vettvangur safnara"
+msgstr "A Wide and Welcoming Forum for Collectors"
+
+#: templates/frontpage/saga.html:9
+msgid ""
+"Á sjöunda áratugi seinustu aldar jókst verulega áhugi á mynt-og seðlasöfnun "
+"hérlendi. Þá höfðu ýmsir safnarar - sem enginn hafði auðvitað nákvæma tölu á "
+"- fengist við að grúska í faginu hver í sínu horni, árum og jafnvel áratugum "
+"saman, og haft lítil eða engin samskipti sín á milli. Hluti af skýringunni á "
+"þessum aukna áhuga kann að vera nýjar útgáfur gjaldmiðla frá Landsbanka "
+"Íslands-Seðlabankanum árið 1960 og nýjar útgáfu Seðlabanka Íslands næstu ár "
+"á eftir. Umfjöllun um söfnun varð tíðari í fjölmiðlum og má í því sambandi "
+"til dæmis benda á áberandi viðtal í dagblaðinu Vísi sumarið 1961 við "
+"lögreglumanninn Ólaf Guðmundsson, sem blaðið titlaði „mesta peningasafnara á "
+"Íslandi.“"
+msgstr ""
+"In the 1960s, interest in collecting coins and banknotes in Iceland increased significantly. At that time, numerous collectors, whose exact numbers are unknown, had been independently pursuing their hobby for years or even decades, with little or no contact with each other. This surge in interest can partly be attributed to new currency issues from “Landsbanki Íslands-Seðlabankinn” in 1960 and subsequent issues from the Central Bank of Iceland. Media coverage on various aspects of coin and banknote collecting became more frequent, exemplified by a prominent interview in the newspaper Vísir in the summer of 1961 with policeman Ólafur Guðmundsson, dubbed \"the most prolific coin collector in Iceland.\""
+
+#: templates/frontpage/saga.html:20
+msgid "Áhugi vex og umfjöllun"
+msgstr "Interest Grows and Coverage Increases"
+
+#: templates/frontpage/saga.html:22
+msgid ""
+"Samfara auknum áhuga og skrifum fjölgaði söfnurum, og fyrirtæki sem áður "
+"höfðu einungis þjónað frímerkjasöfnurum hófu að selja albúm fyrir mynt og "
+"seðla, verðlista og fleira í sama dúr. Einstaklingar, þar á meðal "
+"verslunarmaðurinn Sigurður Þ. Þorláksson, hófu að auglýsa í blöðum eftir "
+"íslenskri mynt, seðlum, brauðpeningum og fleiri gjaldmiðlum sem notaðir "
+"höfðu verið hér á landi í gegnum tíðina. Þá vakti nokkra athygli almennings "
+"þátttaka Helga Jónssonar, húsgagnasmiðs, í myntsýningu í Austur-Þýskalandi "
+"árið 1968, en þar fékk hann bronsverðlaun fyrir safn sitt. Hann mun hafa "
+"verið fyrsti Íslendingurinn sem tók þátt í myntsýningu."
+msgstr "As public and media interest grew, so did the number of collectors. Shops that had previously catered only to stamp collectors began selling albums for storing coins and banknotes, price lists, and books about collecting. Individuals, including one Sigurður Þ. Þorláksson, started advertising in newspapers for Icelandic coins, banknotes, bread tokens, and various other private currencies used in Iceland over the years. The participation of Helgi Jónsson, a master cabinetmaker, in a coin exhibition in East Germany in 1968 also drew public attention. He was reportedly the first Icelander to participate in such an exhibition and received a bronze medal for his collection."
+
+#: templates/frontpage/saga.html:35
+msgid "Safnarar byrja að bollaleggja um félag"
+msgstr "Collectors Discuss Forming an Association"
+
+#: templates/frontpage/saga.html:37
+msgid ""
+"Þegar leið á seinni hluta áratugarins hóf náinn og þröngur hópur manna sem "
+"kom regulega saman á kaffihúsum Reykjavíkur að ræða sífellt oftar að þörf "
+"væri á að stofna sérstakt félag til að tengja alla þá einstaklinga hérlendis "
+"sem væru byrjaðir að safna. Í þeirra hópi voru t.d. fyrrnefndur Sigurður og "
+"Snær Jóhannesson, bókbindari og síðar fornbókasali, og frændi hans, Indriði "
+"Indriðason, rithöfundur og ættfræðingur."
+msgstr "As the decade progressed, a close-knit group of enthusiasts, who regularly met in Reykjavík's cafes, began discussing the need for an association to connect Icelandic collectors. Among them were Þorláksson, Snær Jóhannesson, a bookbinder and later an antique book dealer, and his cousin, Indriði Indriðason, a writer and genealogist."
+
+#: templates/frontpage/saga.html:45
+msgid ""
+"Þann 15. ágúst 1968 birtust bæði í dagblöðunum Þjóðviljanum og Alþýðublaðinu "
+"fréttir um að ákveðið hefði verið að stofna „Félag íslenskra myntsafnara, "
+"eða klúbb, ef næg þátttaka fæst.“ Markmiðið með slíku framtaki væri að "
+"„vinna að úrlausn vandamála þeirra sem safna mynt, seðlum, minnispeningum o. "
+"fl. þessháttar.“ Nær samhljóða fréttir birtust í öðrum helstu dagblöðum "
+"landsins síðar í sama mánuði. Að baki þessum skrifum stóð verslunarmaðurinn "
+"fyrrnefndi, Sigurður Þ. Þorláksson, og voru þeir sem höfðu áhuga á að taka "
+"þátt í stofnun slíks félags beðnir um að senda nöfn sín og heimilisföng til "
+"heimilis hans á Fornhaga, eða hringja í uppgefið símanúmer."
+msgstr "On August 15, 1968, a news article appeared in both the newspapers Þjóðviljinn and Alþýðublaðið announcing the decision to establish an association for Icelandic coin collectors, provided there was enough interest. The initiative aimed to \"address the challenges faced by those who collect old coins and banknotes.\" Similar articles appeared in other major Icelandic newspapers later that month. Þorláksson, the driving force behind the initiative, invited interested individuals to send their names and addresses to his home or call a provided telephone number."
+
+#: templates/frontpage/saga.html:56
+msgid ""
+"Snemma hausts mæltu nokkrir áhugamenn sér tvívegis mót í kaffihúsinu Café "
+"Höll við Austurstræti til að ræða nánar um stofnun félags um mynt- og "
+"seðlasöfnun og semja drög að lögum fyrir slíkan félagsskap: „Voru þar mættir "
+"flestir þeir er kosnir voru á stofnfundi til starfa fyrir félagið, ásamt "
+"fleirum,“ segir Indriði í grein sem hann skrifaði í tilefni af tíu ára "
+"afmæli félagsins."
+msgstr "In early autumn, several enthusiasts held two meetings at Café Höll in Austurstræti to discuss the establishment of an association for coin and banknote collectors and to draft its bylaws."
+
+#: templates/frontpage/saga.html:64
+msgid "Þrjátíu boðaðir á sérstakan stofnfund"
+msgstr "Founding Meeting: Thirty Invited"
+
+#: templates/frontpage/saga.html:66
+msgid ""
+"Í framhaldi af þessum undirbúningi var efnt til stofnfundar 19. janúar 1969. "
+"Í fundargerð segir m.a. að þann dag „boðuðu nokkrir áhugamenn um myntsöfnun "
+"og myntfræðileg efni, til fundar í Norræna húsinu í Reykjavík. Fundarefni "
+"var félagsstofnun um hagsmuna- og áhugamál safnara. Á fundinn voru boðaðir "
+"30 menn og mættu allir nema einn, sem þó sendi inn inntökubeiðni í "
+"væntanlegt félag.“"
+msgstr "Continuing these preparations, a founding meeting was held on January 19, 1969. The meeting minutes note that \"several enthusiasts of coin collecting and numismatics convened at the Nordic House in Reykjavík. Thirty people were invited, and all but one attended, with the absentee submitting a request for admission to the prospective association.\""
+
+#: templates/frontpage/saga.html:74
+msgid ""
+"Eftir að búið var að tilnefna fundarstjóra og fundarritara tók Sigurður til "
+"máls og sagði að ástæðan fyrir því að kalla aðeins saman valda menn en ekki "
+"auglýsa fundinn fyrirfram hafi verið sú að menn hefði talið það geta valdið "
+"töfum á stofnun félagsins „ef menn sem ekki hefðu innsýn í málefni "
+"myntsafnara mættu á þessum fundi.“ Hann tók hins vegar fram að allir sem "
+"þess óskuðu gætu gerst stofnfélagar fyrir 1. mars. Og Sigurður bætti við að "
+"„væntanlegt félag gæti unnið þrekvirki, bæði sem fjárhagsleg samtök um "
+"hagsmuni félagsins og ekki síður með því að skrá sögu Myntfræði Íslands, en "
+"slíkt væri annars illmögulegt – félagsmenn yrðu að vinna þar allir sem einn "
+"og án aðstoðar félagsmanna mundi það ganga hægt.“ Stungið var upp á ýmsum "
+"nöfnum á félagið en það eina sem fékk hljómgrunn var uppástunga Indriða og "
+"var samþykkt samhljóða; að félagið skyldi heita Myntsafnarafélag Íslands."
+msgstr "After appointing a chairman and secretary, Þorláksson explained that the meeting was not advertised publicly to avoid delays caused by attendees unfamiliar with numismatics. However, he emphasized that anyone could become a founding member before March 1st, 1969. Þorláksson added that the association could benefit its members by saving them money on ordering items from abroad and by documenting the history of Icelandic numismatics, which would otherwise be impossible without collaborative efforts. Various names for the association were suggested, but Indriði Indriðason’s suggestion, \"Myntsafnarafélag Íslands\" (The Icelandic Numismatic Association), was unanimously accepted."
+
+#: templates/frontpage/saga.html:89
+msgid "„Að efla og glæða áhuga á myntsöfnun almennt“"
+msgstr "Promoting and Encouraging Coin Collecting"
+
+#: templates/frontpage/saga.html:91
+msgid ""
+"Á hinum formlega stofnfundi í Norræna húsinu 19. janúar 1969 lýsti Sigurður "
+"aðdraganda framtaksins og fyrirsjáanlegum verkefnum félagsins. Ljóst var að "
+"markmið stofnenda voru metnaðarfull og ekki tjaldað til einnar nætur: "
+"„Tilgangur félagsins er að styðja og efla sem fræðigrein myntsöfnun í þeim "
+"skilningi sem á alþjóðamáli er lagt í orðið NUMISMATIC, þ.e. myntfræði. Þar "
+"undir heyrir mynt, pappírspeningar, minnispeningar (Medals) og einkamynt "
+"(Tokens). Að efla og glæða áhuga á myntsöfnun almennt og að gagnkvæmum "
+"kynnum og viðskiptum sé komið á milli félagsmanna, og þau efld. Tilgangi "
+"sínum hyggst félagið ná með upplýsingum og útgáfustarfsemi, sýningum, "
+"fyrirlestrum, fræðslu og kynningarfundum, viðskipta- og uppboðsfundum. "
+"Einnig með sameiginlegum innkaupum á því sem að söfnun og félagsstarfinu "
+"tilheyrir. Eitt af fyrstu verkefnum félagsins er að safna gögnum í Myntsögu "
+"Íslands og útgáfu handbókar um sama efni. Myntsaga Íslands er í algjörum "
+"rústum og verður að leita gagna heimsálfa á milli til að hægt sé að fullgera "
+"slíkt verk.“"
+msgstr "At the official founding meeting at the Nordic House on January 19, 1969, Þorláksson outlined the initiative's background and the association's potential projects. The founders had ambitious, long-term goals: \"The purpose of the association is to support and promote coin collecting in the international sense of the word numismatics. This includes coins, paper money, medals, and private currencies (tokens). To promote and encourage interest in coin collecting generally, to establish mutual acquaintances and business among members, and to strengthen these connections. The association aims to achieve its goals through distributing information, publishing activities, exhibitions, lectures, briefings, business meetings, and auctions. Additionally, the association aims to facilitate joint purchases of collectible items and engage in social initiatives.\" One of its first projects should be collecting data on Iceland's coin history and publishing a comprehensive handbook. The coin history of Iceland was in disarray, he said, and data had to be gathered from various continents to complete such a work."
+
+#: templates/frontpage/saga.html:107
+msgid ""
+"Í fyrstu stjórn MÍ voru kosnir Sigurður Þ. Þorláksson, verslunarmaður, "
+"Sigurjón Sigurðsson, kaupmaður og Ólafur Guðmundsson, lögreglumaður. "
+"Varamenn voru Helgi Jónsson, húsgagnasmiður og Snær Jóhannesson, bókbindari. "
+"Endurskoðendur voru kosnir Vilhjálmur Vilhjálmsson, verslunarmaður, og "
+"Indriði Indriðason, ættfræðingur."
+msgstr "Þorláksson was elected to the first board of The Icelandic Numismatic Association, alongside Sigurjón Sigurðsson, a merchant, and Ólafur Guðmundsson, a policeman. The deputies were Helgi Jónsson, a master cabinetmaker, and Snær Jóhannesson, a bookbinder. Vilhjálmur Vilhjálmsson, a shopkeeper, and Indriði Indriðason, a genealogist, were elected accountants."
+
+#: templates/frontpage/saga.html:117
+msgid "Vaskur frumkvöðlahópur"
+msgstr ""
+
+#: templates/frontpage/saga.html:119
+msgid ""
+"Ýmsar fréttir birtust í dagblöðum stofnun hins nýja félags næstu vikur, þar "
+"á meðal áberandi frétt á baksíðu Morgunblaðsins, sem vafalaust hafa vakið "
+"áhuga margra á að ganga til liðs við þennan vaska frumkvöðlahóp. Í mars var "
+"síðan haldinn „kynningar- og skiptifundur“ á Café Höll og „skiptifundur“ á "
+"sama stað tveimur vikum síðar, og á þeim báðum voru nýir félagar boðnir "
+"velkomnir."
+msgstr "Various news articles about the new association appeared in the following weeks, including a prominent story on the back page of the daily newspaper Morgunblaðið, which likely sparked significant interest. In March, an \"introduction and exchange meeting\" was held at Café Höll, followed by another \"exchange meeting\" two weeks later, both welcoming new members."
+
+#: templates/frontpage/saga.html:128
+msgid ""
+"Á fyrsta formlega stjórnarfundi MÍ, 11. júní 1969, baðst Ólafur undan "
+"stjórnarsetu og tók Helgi sæti í hans stað. Þá skipti stjórn með sér verkum "
+"og varð Helgi Jónsson þar með fyrsti formaður stjórnar Myntsafnarafélags "
+"Íslands, Sigurður Þ. Þorláksson ritari og Sigurjón Sigurðsson gjaldkeri. "
+"Þess má geta að lengi vel var á vegum stjórnar sérstakt embætti sem "
+"kallaðist „erlendur bréfritari“, en þeir sem báru þann virðulega titil "
+"svöruðu bréfum og fyrirspurnum frá myntsöfnurum víða um heim og önnuðust "
+"helstu samskipti við erlend félög á sama sviði, myntkaupmenn ytra o.s.frv. "
+"Þegar litið er yfir formenn félagsins frá upphafi sést að Anton Holt, "
+"myntfræðingur, gegndi þeirri stöðu alls fjórum sinnum, í samtals sautján ár, "
+"Freyr Jóhannesson, byggingatæknifræðingur, alls þrisvar sinnum, í samtals "
+"tólf ár, en lengst samfleytt hefur setið núverandi formaður, Eiríkur J. "
+"Líndal, sálfræðingur, sem tók við því embætti árið 2014."
+msgstr "At the first official board meeting of The Icelandic Numismatic Association (INA) on June 11, 1969, Guðmundsson resigned, and Jónsson took his place. The board then divided its tasks, with Jónsson becoming the first chairman, Þorláksson the secretary, and Sigurðsson the treasurer. Notably, the board also had for years a special position called \"foreign correspondent\", responsible for answering letters and inquiries from global coin collectors and managing relations with foreign associations and coin traders. Reviewing the association's chairmen since its inception, Anton Holt, a numismatic expert, served as chairman four times for a total of seventeen years. Freyr Jóhannesson, a civil engineer, served three times for a total of twelve years, while the current chairman, Eiríkur J. Líndal, a psychologist, has held the position consecutively since 2014."
+
+#: templates/frontpage/saga.html:144
+msgid "Safnarar í Garði Hins Himneska friðar"
+msgstr "In the Garden of Heavenly Peace"
+
+#: templates/frontpage/saga.html:146
+msgid ""
+"Um haustið færðist starfsemin upp í veitingastaðinn Hábæ efst á "
+"Skólavörðuholti og var auglýst í blöðum að fundirnir yrðu haldnir í „Garði "
+"hins Himneska friðar“, en þannig háttaði að Hábær hafði tjaldað yfir bakgarð "
+"staðarins og voru þar kínverskar skreytingar í öndvegi."
+msgstr "In the fall of 1969, INA moved its meetings to the restaurant Hábær, which advertised its \"Garden of Heavenly Peace\" with Chinese-themed decorations."
+
+#: templates/frontpage/saga.html:152
+msgid ""
+"Félagið tók til óspilltra málanna, kom á skiptifundum fyrir safnara, keypti "
+"erlenda mynt og bæði erlenda og íslenska minnispeninga. Félagið gaf einnig "
+"út verðlista fyrir íslenska mynt og lagði grundvöll að myntsafni fyrir "
+"félagið. Í janúar 1970 var haldin sýningin „Við unga fólkið“ í Tónabæ, þar "
+"sem ýmis félög og samtök kynntu starfsemi sína. Þar á meðal MÍ, sem "
+"sameinaðist um einn sýningarbás ásamt Félagi frímerkjasafnara og Taflfélagi "
+"Reykjavíkur og höfðu félagsmenn MÍ sett þar upp sýningarborð með mynt frá "
+"ýmsum tímum, bæði innlendri og erlendri. Þegar félagið fagnaði árs afmæli "
+"sínu á aðalfundi 1970 voru félagsmenn orðnir 150 talsins."
+msgstr "The association quickly became active, organizing exchange meetings for collectors, purchasing coins from abroad, and both foreign and Icelandic commemorative coins. INA also published a price list for Icelandic coins and established a coin collection owned by the association to this day. In January 1970, INA participated in the \"We are the Young People\" exhibition at Tónabær, showcasing their activities alongside The Icelandic Stamp Collectors Federation and Reykjavík Chess Club. INA members displayed coins from various eras, both domestic and foreign. By the association's anniversary meeting in 1970, membership had grown to 150."
+
+#: templates/frontpage/saga.html:164
+msgid ""
+"Fyrsti uppboðsfundur MÍ var haldinn síðla árs 1970, eingöngu ætlaður "
+"félagsmönnum, og hefur það fyrirkomulag haldist óbreytt síðan. Sama ár gekk "
+"félagið í American Numasmatic Association (ANA). Félagsmenn voru orðnir "
+"rúmlega 170 talsins þegar haldinn var aðalfundur 1971."
+msgstr "INA's first auction meeting, intended only for members, was held in late 1970. That arrangement – auctions for members only – continues today. That same year, INA joined the American Numismatic Association (ANA). Membership exceeded 170 by the 1971 general meeting."
+
+#: templates/frontpage/saga.html:173
+msgid "Fyrsta íslenska myntsýningin"
+msgstr "The First Icelandic Coin Exhibition"
+
+#: templates/frontpage/saga.html:175
+msgid ""
+"Myntsafnarafélag Íslands hélt sýningu í apríl 1972 í Bogasal Þjóðminjasafns "
+"Íslands, í samstarfi við safnið, og var þess minnst að það ár var liðin hálf "
+"öld frá því að mynt var sérslegin fyrir Ísland. Þetta var fyrsta íslenska "
+"myntsýning sem haldin hafði verið hérlendis og því um merkilegan viðburð að "
+"ræða. Þar var sýnd íslensk og erlend mynt, íslenskir og erlendir seðlar, "
+"vörupeningar, einkagjaldmiðlar, heiðurs- og minningarpeningar og ýmislegt "
+"fleira. Eitt dagblaðanna sem flutti frétt um sýninguna benti á að þar mætti "
+"berja augum „ýmsa fáséða hluti, sem allur almenningur mun sjaldan, eða "
+"jafnvel aldrei, hafa séð fyrr.“ Gefin var út vegleg sýningarskrá með greinum "
+"eftir m.a. Kristján Eldjárn, þáverandi forseta Íslands, Jóhannes Nordal, "
+"þáverandi Seðlabankastjóra, og Þór Magnússon, þáverandi þjóðminjavörð. "
+"Sýningin var fjölsótt og gerður að henni góður rómur. Var í þessu sambandi "
+"mjög hvatt til að Þjóðminjasafnið kæmi upp sérstakri sýningardeild fyrir "
+"íslenskar myntir og seðla."
+msgstr "In April 1972, INA, in collaboration with the National Museum of Iceland, held an exhibition to mark the 50th anniversary of the first coins minted specifically for Iceland. This was the first coin exhibition ever held in Iceland, featuring Icelandic and foreign coins, banknotes, business tokens, private currencies, honorary and commemorative coins, and other rare items. A newspaper covering the exhibition noted the display of \"various very rare items, sheldom or never seen by the general public.\" An exhibition catalog included articles by notable figures such as President Kristján Eldjárn, Central Bank manager Jóhannes Nordal, and National Museum director Þór Magnússon. The exhibition was well-attended and received, prompting strong encouragement for the National Museum to establish a dedicated department for Icelandic coins and banknotes."
+
+#: templates/frontpage/saga.html:192
+msgid "Mikill kraftur og metnaður"
+msgstr "Vigor and ambition"
+
+#: templates/frontpage/saga.html:194
+msgid ""
+"Brátt var starfsemin komin í nokkurn fastan farveg: MÍ hélt fundi einu sinni "
+"í mánuði þar sem félagsmenn skiptust á seðlum og myntum, ræddu nýjar útgáfu "
+"o.s.frv., auk þess sem haldin voru reglulega uppboð. Stjórn félagsins "
+"annaðist líka innkaup á mynt fyrir félagsmenn frá erlendum myntsláttum og "
+"myntsölum."
+msgstr "INA's activities soon settled into a regular pattern: monthly meetings for exchanging notes and coins, discussing new issues, and holding auctions. The board also managed the purchase of coins from foreign mints and dealers for its members."
+
+#: templates/frontpage/saga.html:201
+msgid ""
+"Haustið 1973 var danski myntfræðingurinn Johan Chr. Holm fenginn til "
+"landsins á vegum félagsins og hélt hann tvo fyrirlestra í Norræna húsinu. "
+"Ólafur Tryggvason, læknir og félagi í MÍ, hélt einnig fyrirlestur á vegum "
+"félagsins síðar sama ár um flokkun og hreinsun myntar."
+msgstr "In the fall of 1973, the association brought Danish numismatist Johan Chr. Holm to Iceland for two lectures at the Nordic House. Later that year, Dr. Ólafur Tryggvason, an INA member, delivered a lecture on the classification and cleaning of coins, further enriching the association's educational efforts."
+
+#: templates/frontpage/saga.html:208
+msgid ""
+"Þegar MÍ fagnaði 5 ára afmæli sínu árið 1974 voru gengnir í það um 250 "
+"félagar, flestir búsettir á Reykjavíkursvæðinu, fáeinir tugir frá "
+"landsbyggðinni og nokkrir voru búsettir erlendis. Félagið hélt þá orðið "
+"uppboðsfundi einu sinni í mánuði, oftast á laugardögum í kjallara "
+"Templarahallarinnar. Ragnar Borg, verslunarmaður og félagi í MÍ frá fyrstu "
+"tíð, var yfirleitt uppboðshaldari en Indriði og Anton Holt, myntfræðingur, "
+"hlupu í skarðið í fjarveru hans."
+msgstr "When INA celebrated its 5th anniversary in 1974, about 250 members had joined, most of them living in the Reykjavík area, with a few dozen from the countryside and some living abroad. The association held auction meetings once a month, usually on Saturdays in the basement of the Templarahöll, a hall belonging to the I.O.O.F. in Iceland. Ragnar Borg, a businessman and an INA member from the beginning, was usually the auctioneer, with Indriðason and Holt stepping in if needed."
+
+#: templates/frontpage/saga.html:217
+msgid ""
+"Snemma vors 1975 ákvað stjórn MÍ að efna til samkeppni um nýtt merki fyrir "
+"félagið, opna öllum og var verðlaunafé 10 þúsund krónur á þávirði. Var lögð "
+"áhersla á að merkið væri þannig úr garði gert að „merking þess glatist ekki "
+"þótt það sé minnkað eða stækkað.“"
+msgstr "In early spring 1975, the INA board decided to hold a competition for a new logo, open to everyone. It was emphasized that the logo should maintain its clarity when resized. "
+
+#: templates/frontpage/saga.html:224
+msgid ""
+"Hlutskarpastur var Árni Helgason, og var um svokallað leturmerki að ræða, "
+"þar sem fangamark félagsins – MÍ – var sett í grafískan búning í svarthvítu."
+msgstr "The winner was Árni Helgason, who designed a font logo featuring the association's initials, MÍ, in black and white."
+
+#: templates/frontpage/saga.html:230
+msgid "Myntfræðsla fyrir alla landsmenn"
+msgstr "Coin Education for the Public"
+
+#: templates/frontpage/saga.html:232
+msgid ""
+"Um líkt leyti var Ragnar Borg fenginn til að skrifa sérstaka pistla um mynt- "
+"og seðlasöfnun í Morgunblaðið og var þar fastapenni nær samfleytt í um tvo "
+"áratugi. Þessir pistlar voru víðlesnir og vöktu athygli margra á þessu "
+"söfnunarsviði, og ekki að efa að skrif Ragnars hafi aukið nýliðun hjá "
+"félaginu. Hann birti þar oft fréttir af starfsemi félagsins og má telja "
+"ólíklegt að mörg önnur félög hafi haft jafn greiðan aðgang að íslenskum "
+"almenningi á þeim tíma með innanhúsmál sín."
+msgstr "Ragnar Borg was hired to write a special column about coin and banknote collecting in the daily Morgunblaðið, where he contributed regularly for nearly two decades. These columns were widely read and attracted many to the field, significantly boosting INA's recruitment. Borg often wrote about the association's \"internal\" activities, providing it with unparalleled access to the Icelandic public."
+
+#: templates/frontpage/saga.html:242
+msgid ""
+"Á þessum tíma ákvað stjórn Myntsafnarafélagsins að gera tilraun með "
+"svokallaðan skiptaklúbb: „Það er meiningin að menn geti hist þar einu sinni "
+"í mánuði, til að byrja með. Verða þar verðlistar, sem félaginu berast, svo "
+"og bækur úr bókasafni félagsins. Einnig geta menn komið þangað með mynt, sem "
+"þeir vilja láta í skiptum.“ Fyrsti klúbbfundurinn var haldinn í aprílbyrjun "
+"1975, á annarri hæð á Rauðarárstíg 1, en þar komust fyrir tuttugu til "
+"þrjátíu manns. „Það má þá fá stærra húsnæði seinna, ef klúbburinn sprengir "
+"þetta húsnæði strax utanaf sér,“ sagði Ragnar Borg í grein í Morgunblaðinu "
+"og benti á um 90 manns hefðu mætt á seinasta fund MÍ."
+msgstr "At this time, the INA board also decided to establish an \"exchange club\": \"The idea is that people can meet once a month to exchange or sell items, access price lists and books from the association's library.\" The first club meeting was held in April 1975 on the second floor of a new downtown Reykjavík location, accommodating twenty to thirty people. \"We can find a bigger location later if needed,\" Ragnar Borg stated in an article in Morgunblaðið, noting that around 90 people attended the last INA meeting."
+
+#: templates/frontpage/saga.html:255
+msgid " Seilst til landsbyggðarinnar og blaðaútgáfa hefst "
+msgstr "Appealing to the Countryside and Starting a Newsletter"
+
+#: templates/frontpage/saga.html:257
+msgid ""
+"Um miðjan júní 1975 hélt MÍ, í samstarfi við Landssamband íslenzkra "
+"frímerkjasafnara, þriggja daga sýningu á seðlum, myntum og frímerkjum í "
+"Hagaskóla, sem fékk góða aðsókn. Félagið blés einnig til sýningar á Akureyri "
+"skömmu síðar, fyrst og fremst í þeim tilgangi að kynna íbúum utan "
+"höfuðborgarsvæðisins „myntsöfnun og það gildi og skemmtun sem hún getur "
+"veitt sem tómstundariðja.“ Fjölmargir Norðlendingar gengu í félagið í "
+"kjölfarið."
+msgstr "In mid-June 1975, INA, in collaboration with The Icelandic Stamp Collectors Federation, held a three-day exhibition of banknotes, coins, and stamps at Hagaskóli, which was well attended. Soon after, they held another exhibition in Akureyri to introduce residents outside the capital area to the joys and benefits of coin collecting, resulting in numerous new members from the North."
+
+#: templates/frontpage/saga.html:265
+msgid ""
+"Þá var ákveðið 1976 að hefja útgáfu á blaðinu Mynt, sem skyldi innihalda "
+"„ýmsan fróðleik og leiðbeiningar um mynt, svo sem erindi sem flutt hafa "
+"verið á vegum félagsins ... Einnig leiðbeiningar um meðferð mynta, flokkun "
+"og hvað eina er til fellur hverju sinni.“ Kváðust stjórnarmenn vona að "
+"blaðið ætti eftir að dafna og flytja félagsmönnum fróðleik og ánægjulegt "
+"efni og það yrði opið öllum sem hefðu fram að færa efni sem ætti erindi til "
+"félagsmanna um mynt og aðra hliðstæða söfnun. Blaðið innihélt líka "
+"uppboðsskrá fyrir mánaðarlega uppboðsfundi félagsins og hefur komið út "
+"óslitið síðan. Lengst hafa setið sem ritstjórar í gegnum tíðina Tryggvi "
+"Ólafsson og Baldvin Halldórsson."
+msgstr " In 1976, INA decided to start publishing the newsletter Mynt, which would include \"various information about coins and collecting, such as talks given on behalf of the association, instructions on handling and classifying coins, and other relevant content.\" The newsletter also contained an auction catalog for INA's monthly auctions and has been continuously published since. Over the years, Tryggvi Ólafsson and Baldvin Halldórsson have served the longest as editors."
+
+#: templates/frontpage/saga.html:277
+msgid "Uppboð í höll templara, fundir í húsi lækna"
+msgstr "Auctions in the Palace of the Templars, Meetings in the House of Doctors"
+
+#: templates/frontpage/saga.html:279
+msgid ""
+"Haustið 1976 voru félagar í MÍ orðnir um 330 talsins. Ragnar Borg, þá "
+"formaður félagsins, skrifaði um starfsemi félagsins og sagði meðal annars: "
+"„Á undanförnum árum hefur stjórn Myntsafnarafélagsins gengist fyrir því, að "
+"erindi um myntfræðileg efni hafa verið flutt á fundum félagsins. Hafa bæði "
+"innlendir og erlendir áhuga og fræðimenn komið þarna fram. Áframhald verður "
+"á þessarri starfsemi í vetur. Verða meðal annars sýndar litskyggnur, sem "
+"keyptar hafa verið frá hinu þekkta enska myntfyrirtæki Seaby. Skýringar "
+"verða fluttar með myndunum, sem eru af þekktum peningum frá fornum tíma.“"
+msgstr "By the fall of 1976, INA had about 330 members. The chairman at that time, Ragnar Borg, wrote about the association's activities, noting: \"In recent years, the board has ensured that talks on numismatic topics are given at meetings, featuring both domestic and foreign experts and academics. This will continue this winter with color slides purchased from the well-known English coin company Seaby, accompanied by explanations of known coins from ancient times.\""
+
+#: templates/frontpage/saga.html:289
+msgid ""
+"Á þeim tíma voru tveir félagsfundir haldnir á vegum MÍ á mánuði. Einn "
+"laugardag í mánuði komu félagar saman í kjallara Templarahallarinnar við "
+"Eiríksgötu og seldu eða skiptust á mynt, seðlum, minnispeningum og öðrum "
+"safngripum, en fundurinn endaði síðan með uppboði. Einn fimmtudag i mánuði "
+"voru svo haldnir svokallaðir klúbbfundir í Domus Medica, sem voru mun "
+"óformlegri fundir, en þar sátu menn og ræddu söfnun yfir góðum kaffibolla, "
+"skoðuðu söfn hvers annars o.s.frv. Síðarnefndu fundirnir fengu annan "
+"samastað nokkrum árum síðar, í þremur herbergjum á Amtmannsstíg 2. Á "
+"aðalfundi MÍ árið 1977 voru félagar orðnir 350 talsins."
+msgstr "INA held two social meetings per month. One Saturday a month, members gathered in the basement of the Templarahöllin on Eiríksgata to sell or exchange coins, banknotes, commemorative coins, and other collectibles, ending with an auction. On one Thursday each month, informal club meetings were held at Domus Medica, where members discussed collections over coffee and shared their items. These meetings later moved to three rooms at Amtmannsstíg 2. At the 1977 general meeting, INA had 350 members."
+
+#: templates/frontpage/saga.html:302
+msgid "Silfrið brætt í afmælispening"
+msgstr "Silver Melted into Commemorative Medals"
+
+#: templates/frontpage/saga.html:304
+msgid ""
+"Árið 1979 keypti félagið 390 silfurpeninga sem íslenska ólympíunefndin lét "
+"slá 1972 og 13 peninga ólympíunefndar frá 1976, samtals um ellefu kíló, og "
+"voru þeir bræddir til að slá 10 ára afmælisminnispeninga MÍ. Fyrirtækið Ís-"
+"Spor sló 150 slíka minnispeninga, eftir teikningu Sveins Ólafssonar "
+"myndskera."
+msgstr "In 1979, the association bought 390 silver coins minted by the Icelandic Olympic Committee in 1972 and 13 Olympic Committee coins from 1976, totaling about eleven kilos, which were melted down to mint the 10th-anniversary commemorative medals for INA. The company Ís-Spor minted 150 medals based on a design by sculptor Sveinn Ólafsson."
+
+#: templates/frontpage/saga.html:311
+msgid ""
+"Félagið efndi einnig til tíu ára afmælissýningar í Þjóðminjasafni Íslands "
+"sem þótti ágætlega heppnuð, en aðsóknin leið þó fyrir að ákaflega slæmt "
+"veður gekk yfir Reykjavík þá daga sem sýningin stóð. Fyrir vikið var tap á "
+"sýningunni og það liðu heil 18 ár áður en Myntsafnarafélagið lagði í að "
+"halda aftur sérstaka sýningu á eigin vegum."
+msgstr "INA also held a ten-year anniversary exhibition at the National Museum of Iceland, which was well received despite extremely bad weather during the exhibition days that affected the attendance. Because of the subsequent loss of money, 18 years passed before the Icelandic Numismatic Association decided to hold another special exhibition on its own."
+
+#: templates/frontpage/saga.html:320
+msgid "„Sjarmerandi dama“ á meðal fyrstu heiðursfélaga"
+msgstr "A \"Charming Lady\" Among the First Honorary Members"
+
+#: templates/frontpage/saga.html:322
+msgid ""
+"Fyrsti heiðursfélagi MÍ var kosinn Pétur Hoffmann Salómonsson, snemma árs "
+"1977, og var hann eini heiðursfélagi félagsins næstu árin. Pétur seldi "
+"myntir í fjöldamarga áratugi og lét á árunum 1962-1968 slá pening með mynd "
+"af sér, úr kopar, silfri og gulli; Selsvaradalina svokölluðu, sem urðu "
+"eftirsóttir safngripir. Næstu heiðursfélagar voru kosnir árið 1982, þau "
+"Helgi Jónsson, skráður félagi númer eitt í MÍ, og Ella Einarsson. Þegar "
+"skýrt var frá valinu var m.a. sagt um Ellu: „Einn þeirra félagsmanna sem "
+"stuðlað hafa að því að gera fundina skemmtilegri er frú Ella Einarsson. Hún "
+"hefur verið öðrum til fyrirmyndar um mætingu, er lifandi og skemmtileg í "
+"viðræðum og tekur ósvikinn þátt í uppboðum. Það er hvert félag fullsæmt af "
+"því að hafa svo sjarmerandi dömu sem frú Ellu Einarsson í sínum röðum.“"
+msgstr "Pétur Hoffmann Salómonsson was elected INA's first honorary member in early 1977, remaining the club's sole honorary member for several years. Salómonsson, a longtime coin seller, had coins minted with his own image in copper, silver, and gold from 1962 to 1968; these so-called Selsvarardalur coins became sought-after collectibles. In 1982, INA elected two more honorary members: Helgi Jónsson, the first chairman and registered member number one, and Mrs. Ella Einarsson. When explaining Mrs. Einarsson's selection, the board noted, \"One of the members who has contributed to making the meetings more enjoyable is Mrs. Ella Einarsson. She has set an example for others in terms of attendance, is lively and entertaining in discussions, and genuinely participates in auctions. Every club or association is blessed to have such a charming lady as Mrs. Ella Einarsson in its ranks.\""
+
+#: templates/frontpage/saga.html:335
+msgid ""
+"Árið síðar var svo fyrsti erlendi heiðursfélaginn kjörinn, danski "
+"myntkaupmaðurinn og myntfræðingurinn Johann Chr. Holm áðurnefndur. Af öðrum "
+"erlendum gestum má nefna danska myntfræðinginn Jerry Mayer sem hélt "
+"fyrirlestur á vegum MÍ árið 1986, og kom tvívegis til Íslands næstu ár á "
+"eftir til að halda fræðsluerindi fyrir félagsmenn."
+msgstr "The following year, INA elected its first foreign honorary member, Danish coin dealer and numismatic expert Johann Chr. Holm. Other notable foreign visitors included Danish numismatist Jerry Mayer, who lectured for INA in 1986 and returned twice in subsequent years to provide educational talks to members."
+
+#: templates/frontpage/saga.html:344
+msgid "Félagið fær aðild að Norræna myntsambandinu"
+msgstr "INA Joins the Nordic Numismatic Union"
+
+#: templates/frontpage/saga.html:346
+msgid ""
+"MÍ tók þátt í myntsýningu og markaði á Akureyri haustið 1982, í samstarfi "
+"við Félag frímerkjasafnara á Akureyri, og þótti viðburðinn takast mjög vel. "
+"Félaginu var síðan boðið í fyrsta skipti árið 1984 að taka þátt í Nordia-"
+"sýningunni, sem haldin var sama ár í Laugardalshöllinni. Fyrsti "
+"safnaramarkaður á vegum MÍ, opinn almenningi, var haldinn 1986 í samstarfi "
+"við Landssamband íslenzkra frímerkjasafnara, Félag frímerkjasafnara, Klúbb "
+"Skandínavíusafnara og kortasafnara. Þessi sameiginlegi markaður félaganna "
+"þótti fjörlegur og þátttakan og aðsóknin sýndi að fjölmargir landsmenn voru "
+"áhugasamir um söfnun, þó svo að þeir stæðu utan félaganna sem skipulögðu "
+"viðburðinn."
+msgstr "In the fall of 1982, INA participated in a coin exhibition and market in Akureyri in collaboration with the Association of Stamp Collectors in Akureyri, an event considered a great success. In 1984, INA was invited for the first time to take part in the NORDIA exhibition, held at the Laugardalshöll sports palace. The first collector's market organized by INA and open to the public occurred in 1986, in collaboration with several other collector organizations. This lively event demonstrated significant public interest in collecting, even among those not affiliated with any organizing associations."
+
+#: templates/frontpage/saga.html:358
+msgid ""
+"Myntsafnarafélag Íslands gerðist aðili að Norræna myntsambandinu árið 1983 "
+"og var í fyrsta skipti gestgjafi samnorræns fundar sambandsins í Reykjavík "
+"sumarið 1989. Vegna 20 ára afmælis félagsins það ár og í tilefni af fundi "
+"Norræna myntsambandsins lét MÍ slá minnispening úr bronsi. Einnig var nýtt "
+"merki félagsins tekið í notkun, teiknað af Þórunni Árnadóttur, en Sveinn "
+"Ólafsson hannaði leturgerð. Merkið sýnir nafn félagsins í bláum stöfum mynda "
+"nokkurs konar krans utan um heiðgræna, ögn stíliseraða teikningu af jurt "
+"þeirri sem kallast á víxl peningagras, peningablóm og lokasjóður, en heitið "
+"á rætur að rekja til að aldin blómsins er í lögun einsog peningur." 
+msgstr "INA became a member of the Nordic Numismatic Union in 1983 and hosted the union's all- Nordic conference in Reykjavík in the summer of 1989. To commemorate the association's 20th anniversary and the conference, INA minted a bronze commemorative coin. The association also introduced a new logo, designed by Þórunn Árnadóttir with font design by Sveinn Ólafsson. The logo features the association's name in blue letters forming a laurel around a heather green, slightly stylized drawing of the \"money flower\" (Rhinanthus minor), named for its money-shaped fruit."
+
+#: templates/frontpage/saga.html:371
+msgid "Nýjar höfuðstöðvar og öflugt starf"
+msgstr "New Headquarters"
+
+#: templates/frontpage/saga.html:373
+msgid ""
+"Árið 1990 sagði félagið upp húsakynnum sínum á Amtmannsstíg og fékk afnot af "
+"húsnæði Landssambands íslenzkra frímerkjasafnara í Síðumúla 17, og hefur það "
+"allar götur síðan verið meginaðsetur MÍ fyrir fundi sína, uppboð og "
+"safnaramarkaði. Upp úr miðjum 10. áratug var félagið líka öflugt í að halda "
+"fræðslufundi fyrir félagsmenn um margvísleg efni sem tengdust söfnun og voru "
+"þeir Anton Holt, Freyr Jóhannesson og Júlíus Arnórsson þar oftast í pontu, "
+"en ýmsir aðrir fyrirlesarar komu líka við sögu."
+msgstr "In 1990, INA moved from Amtmannstígur to the premises of the Icelandic Stamp Collectors Federation at Síðumúla 17, which has since been INA's main headquarters for meetings, auctions, and collectors' markets. From the mid-1990s, the association also organized educational meetings on various collecting topics, frequently led by Anton Holt, Freyr Jóhannesson, and Júlíus Arnórsson, among others."
+
+#: templates/frontpage/saga.html:384
+msgid "Sýningar endurspegla fjölbreytileikann"
+msgstr "Exhibitions Reflecting Diversity"
+
+#: templates/frontpage/saga.html:386
+msgid ""
+"Eftir átján ára hlé á sýningarhaldi efndi félagið til metnaðarfullrar "
+"sýningar í Hafnarborg 1997, sem þótti lukkast afar vel. Íslenskir "
+"gjaldmiðlar í 220 ár voru í forgrunni en fjölmargt annað var til sýnis sem "
+"hafði litlar tengingar við mynt- og seðlasöfnun. Má segja að þarna hafi "
+"félagið markað ákveðna stefnubreytingu með því að hampa þeim fjölbreytileika "
+"í söfnun sem finna mátti í röðum félagsmanna, í stað þess að leggja "
+"höfuðáherslu á mynt og seðla einsog gert hafði verið á fyrri sýningum. Þetta "
+"endurspeglaði vitaskuld að innan vébanda félagsins voru karlar og konur sem "
+"söfnuðu margvíslegu til viðbótar við gjaldmiðla, en einnig að margir "
+"félagsmenn söfnuðu alls ekki gjaldmiðlum heldur fjölmörgum öðrum "
+"forvitnilegum munum. Á þeim þremur áratugum sem Myntsafnarafélag Íslands "
+"hafði starfað hafði það „sprengt utan af sér nafnið“, ef svo má að orði "
+"komast, og var nú orðið víðfeðmur samastaður safnara óháð áherslum þeirra og "
+"áhuga á sviði söfnunar."
+msgstr "After an 18-year hiatus, INA held an ambitious exhibition at the Hafnarborg art museum in 1997, showcasing 220 years of Icelandic currency and various other collectibles. This marked a shift in the association's focus, emphasizing the diversity of its members' collections beyond just coins and banknotes. This inclusive approach reflected the wide range of interests among INA members, many of whom collected various curiosities in addition to or instead of currency."
+
+#: templates/frontpage/saga.html:401
+msgid ""
+"Þessi þróun birtist enn betur á næstu sýningu Myntsafnarafélags Íslands. Hún "
+"varð þó ekki að veruleika fyrr en fimmtán árum síðar, þrátt fyrir að "
+"sýningin í Hafnarborg þætti hafa gengið vonum framar. MÍ hélt sýningu á "
+"safngripum ellefu félagsmanna sinna í Norræna húsinu vorið 2012. Fyrir utan "
+"íslenska og seðla og mynt mátti sjá þar sjaldgæf skjöl og muni frá elsta "
+"Íslandsbanka, muni frá Íslandsheimsókn Friðriks 8. Danakonungs árið 1907, "
+"muni frá Alþingishátíðinni 1930 og lýðveldishátíðinni 1944, íslenska "
+"eldspýtnastokka, sígarettuhylki, sígarettupakka og kveikjara, svo fátt eitt "
+"sé nefnt. Fjölbreytnin var í fyrirrúmi og sýningin heppnaðist ákaflega vel."
+msgstr "This evolution was even more evident at INA's next exhibition, held 15 years later in the Nordic House in the spring of 2012. The exhibition featured the collectibles of eleven members, including rare documents and items from Iceland's history, such as artifacts from the oldest version of Íslandsbanki, memorabilia from King Frederick III of Denmark's 1907 visit to Iceland, items from the 1930 Parliamentary Festival and the 1944 Republican celebration, along with Icelandic matchsticks and cigarette cases. The emphasis on diversity made the exhibition extremely successful."
+
+#: templates/frontpage/saga.html:413
+msgid "Heimur söfnunar heillar enn"
+msgstr "The World of Collecting Still Fascinates"
+
+#: templates/frontpage/saga.html:415
+msgid ""
+"Þegar Myntsafnarafélag Íslands fagnaði 50 ára afmæli sínu, árið 2019, var "
+"síðan haldin metnaðarfull og vegleg sýning til að minnast þessara merku "
+"tímamóta. Þar mátti sjá ótal marga fágæta og ómetanlega muni úr ótal áttum. "
+"Sýningin, sem haldin var í sal Ferðafélags Íslands, fékk mikla umfjöllun og "
+"athygli og var gríðarvel sótt. Myntsafnarafélag Íslands sýndi það og sannaði "
+"að þrátt fyrir harða samkeppni í nútímanum um athygli almennings gat heimur "
+"söfnunar enn heillað unga sem aldna."
+msgstr "When the Icelandic Numismatic Association celebrated its 50th anniversary in 2019, it marked the occasion with an ambitious and auspicious exhibition. Guests marveled at countless rare and priceless objects from a variety of sources. Held in the hall of the Iceland Touring Association, the exhibition garnered significant attention and was very well attended. The INA proved that despite today's fierce competition for the public's attention, the world of collecting could still fascinate young and old alike."
+
+#: templates/frontpage/saga.html:425
+msgid ""
+"Starfsemi MÍ hefur á þeim árum sem liðin eru síðan stórafmælinu var fagnað "
+"verið með hefðbundnu sniði og í svipuðum anda og frumkvöðlar félagsins "
+"mótuðu á upphafsárunum. Mánaðarlegir uppboðsfundir fyrir félagsmenn, tíu "
+"mánuði á ári, eru þungamiðjan í umsýslu þess, ásamt útgáfu Mynt-blaðsins og "
+"tveimur safnaramörkuðum á ári, sem opnir eru almenningi og hafa notið "
+"vinsælda."
+msgstr "In the years since this major milestone, INA has remained steadfast in its mission, following the spirit and path set by its founders. Monthly auction meetings for members, held ten months a year, are the cornerstone of its activities. This is complemented by the publication of the \"Mynt\" newsletter, and two collectors' markets each year, which are open to the public and have consistently enjoyed popularity."
+
+#: templates/frontpage/saga.html:435
+msgid "Griðarstaður safnara frá upphafi"
+msgstr "A Collector's Haven Since the Beginning"
+
+#: templates/frontpage/saga.html:436
+msgid ""
+"Myntsafnarafélag Ísland hefur fyrir löngu skipað sér sess sem einn helsti "
+"vettvangur þeirra sem hafa áhuga og ástríðu fyrir markvissri söfnun "
+"hérlendis. Félagið er griðastaður þeirra karla og kvenna sem vilja rækta "
+"betur þekkingu sína á þessu sviði, skiptast á safngripum og upplýsingum um "
+"söfnun og umfram allt vera í góðum og upplífgandi samskiptum við aðra "
+"safnara. Helsta markmiðið er sem fyrr að efla og glæða áhuga landsmanna á "
+"söfnun, minna á gildi hennar og mikilvægi og koma á framfæri þeirri ánægju "
+"og skemmtun sem söfnun getur veitt fólki, óháð aldri, stétt eða stöðu. Þeir "
+"eiginleikar hafa staðist tímans tönn ótrúlega vel."
+msgstr "The INA has long established itself as one of the primary forums for dedicated collectors in Iceland. The association serves as a haven for individuals who seek to deepen their knowledge, exchange collectibles, and share information about the art of collecting. Above all, it fosters good and uplifting relationships among collectors. The main goals of the Icelandic Numismatic Association are to promote and ignite national interest in collecting, remind people of the value and importance of collecting, and convey the pleasure and entertainment that collecting can bring, regardless of age, class, or status. These principles have stood the test of time remarkably well. INA's reach in the world of collectors and collecting in Iceland is wide and welcoming."
