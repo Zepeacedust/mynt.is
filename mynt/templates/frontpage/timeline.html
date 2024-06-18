@@ -1,7 +1,43 @@
 {% extends "main.html" %}
+{% load static %}
 
 {% block body %}
-<div>
+
+<html>
+<body>
+
+<div class="timeline">
+    <div class="timeline-item">
+        <div class="year">2020</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod velit nec velit ullamcorper, sed tristique nunc ullamcorper.</p>
+            </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid1969feb.jpg' %}" alt="Stofnunn">
+            </div>
+        </div>
+    </div>
+    
+    <div class="timeline-item">
+        <div class="year">2018</div>
+        <div class="timeline-content">
+             <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid1969feb.jpg' %}" alt="Stofnunn">
+            </div>
+            <div class="text-container">
+                <p class="text">Nulla ac leo eu ipsum dapibus commodo. Donec pharetra libero eu lectus pretium, nec mattis tortor egestas.</p>
+            </div>
+            
+           
+        </div>
+    </div>
+    
+    <!-- Add more timeline items as needed -->
     
 </div>
+
+</body>
+</html>
+
 {% endblock %}

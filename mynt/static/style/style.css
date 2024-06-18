@@ -66,11 +66,11 @@
 html {
   background-color: #eee;
 }
-/*         tok ut utaf timeline
-body {
+
+body {    /*var ad fikta*/
   margin: 0;
   min-height: 100%;
-}*/
+}
 
 .main-content {
   min-width: 32em;
@@ -119,7 +119,7 @@ text-align: center;
 
 
 
-/*--------------------------------------------*/
+/*-------------------Hamburger menu-------------------------*/
 
 .example {
   background: #3c3836;
@@ -217,122 +217,77 @@ input:checked ~ .menu-burger__item-list {
 
 
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 0;
-  margin: 0;
-}
 
 .timeline {
-  position: relative;
-  max-width: 1200px;
+ /* max-width: 800px;*/
+  max-width: 75rem;
   margin: 0 auto;
-  padding: 40px 0;
+  position: relative; /* Position relative for absolute positioning of line */
 }
 
-.container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
+.timeline-item {
+  display: flex;
+  margin-bottom: 50px;
+  position: relative; /* Position relative for absolute positioning of year */
 }
 
-.container::after {
-  content: "";
+.year {
+  font-size: 24px;
+  width: 80px; /* Adjust width as needed */
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.left {
-  left: 0;
-}
-
-.right {
   left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* Ensure year is above the line */
 }
 
-.left::before {
-  content: " ";
-  height: 100%;
-  width: 3px;
-  background-color: #FF9F55;
-  position: absolute;
-  left: 97%;
-  top: 0;
-  z-index: -1;
+.timeline-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+
+ /* margin-left: 100px; /* Space for the year and line  GERIR EKKERT GAFULEGT*/
 }
 
-.right::before {
-  content: " ";
-  height: 100%;
-  width: 3px;
-  background-color: #FF9F55;
-  position: absolute;
-  left: -3%;
-  top: 0;
-  z-index: -1;
+.text-container {
+  flex: 1;
+  padding-right: 100px; /* Space for the line and image */
+  padding-left: 100px;
+  position: relative; /* Ensure text container respects z-index */
+  z-index: 1; /* Ensure text container is above the line */
 }
 
-.right::after {
-  left: -16px;
+.text {
+  color: #666;
+  line-height: 1.6;
+  min-width: 300px;
 }
 
-.content {
-  padding: 20px 30px;
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
+.timeline-img {
+  width: 400px; /* Adjust image width as needed */
+  margin-left: 100px; /* Space between text and image */
+  margin-right: 100px;
+  padding-top: 5%;
 }
 
-.content h2 {
-  margin-top: 0;
-  color: #333;
-}
-
-.content p {
-  color: #777;
-}
-
-.content img {
-  width: 100%;
+.timeline-img img {
+  max-width: 100%;
   height: auto;
-  border-radius: 6px;
-  margin-top: 10px;
+  display: block;
 }
 
-/* Media Queries for Mobile Responsiveness */
-@media screen and (max-width: 767px) {
-  .timeline::before {
-      left: 31px;
-  }
-
-  .container {
-      width: 100%;
-      padding-left: 70px;
-      padding-right: 25px;
-  }
-
-  .container::after {
-      left: 60px;
-  }
-
-  .left::before, .right::before {
-      left: 60px;
-  }
-
-  .right {
-      left: 0;
-  }
-
-  .right::after {
-      left: 60px;
-  }
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%; /* Center the line horizontally */
+  transform: translateX(-2px); /* Adjust to align with the year */
+  width: 4px; /* Line width */
+  height: 115%; /* Full height of the item VAR UPPRUNALEGA 100% OG HEFUR AHRIF A SVORTU LINUNA*/
+  background-color: #333; /* Line color */
+  z-index: 0; /* Ensure the line is behind content */
 }
