@@ -300,7 +300,14 @@ input:checked ~ .menu-burger__item-list {
   left: 50%; /* Center the line horizontally */
   transform: translateX(-2px); /* Adjust to align with the year */
   width: 4px; /* Line width */
-  height: 120%; /* Full height of the item VAR UPPRUNALEGA 100% OG HEFUR AHRIF A SVORTU LINUNA*/
+  height: 125%; /* Full height of the item VAR UPPRUNALEGA 100% OG HEFUR AHRIF A SVORTU LINUNA*/
   background-color: #333; /* Line color */
   z-index: 0; /* Ensure the line is behind content */
 }
+
+.timeline-item2 { /*gert fyrir siðasta bozo i class*/
+  display: flex;
+  margin-bottom: 50px;
+  position: relative; /* Position relative for absolute positioning of year */
+}
+
