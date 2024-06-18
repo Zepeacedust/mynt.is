@@ -5,7 +5,7 @@ from django.utils.decorators import method_decorator
 from mixins.ViewTitleMixin import ViewTitleMixin
 # Create your views here.
 
-class Tilgangur(ViewTitleMixin, View):
+class Timeline(ViewTitleMixin, View):
     name = "dashboard"
     title = "Myntsafnarafélag Íslands"
     
