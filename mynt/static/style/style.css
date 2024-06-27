@@ -39,6 +39,7 @@
   top: 0em;
   z-index: 2;
 }
+
 .sidebar-show {
   transform: translateX(0px);
 }
@@ -95,6 +96,8 @@ footer {
   font-weight: bold;
   font-size: small;
 }
+
+/*
 header {
   text-align: center;
 }*/
@@ -121,9 +124,6 @@ text-align: center;
 }
 
 
-
-
-/*-------------------Hamburger menu-------------------------*/
 
 .example {
   background: #3c3836;
@@ -214,11 +214,7 @@ input:checked ~ .menu-burger__item-list {
 }
 
 
-
-
-
 /*----------------------FYRIR TIMELINE----------------------*/
-
 
 
 
@@ -310,4 +306,3 @@ input:checked ~ .menu-burger__item-list {
   margin-bottom: 50px;
   position: relative; /* Position relative for absolute positioning of year */
 }
-
