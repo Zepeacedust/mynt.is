@@ -2,6 +2,10 @@
 {% load markdown_rendering %}
 {% block body %}
 
+
+thumbnail start
+{{ post.thumbnail }}
+thumbnail end
 <h1> {{ post.title }} </h1>
 Author: {{ post.author.name }}
 

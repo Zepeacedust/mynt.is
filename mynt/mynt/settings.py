@@ -69,9 +69,12 @@ TEMPLATES = [
         },
     },
 ]
+
+
 STATICFILES_DIRS = [
     "static"
 ]
+
 
 
 WSGI_APPLICATION = 'mynt.wsgi.application'
@@ -128,3 +131,15 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
+CSRF_TRUSTED_ORIGINS = ["http://localhost:80"]
+
+# Media
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "mediafiles"
+
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
