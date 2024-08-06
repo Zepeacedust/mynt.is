@@ -1,0 +1,95 @@
+/*----------------------FYRIR TIMELINE----------------------*/
+.main-content{
+    padding-left: 0rem !important;
+    padding-right: 0rem !important; 
+}
+
+.timeline {
+    /* max-width: 800px;*/
+     max-width: 75rem;
+     margin: 0 auto;
+     position: relative; /* Position relative for absolute positioning of line */
+     
+   }
+   
+   .timeline-item {
+     display: flex;
+     margin-bottom: 50px;
+     position: relative; /* Position relative for absolute positioning of year */
+   }
+   
+   .year {
+     font-size: 24px;
+     width: 80px; /* Adjust width as needed */
+     padding: 10px;
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     z-index: 1; /* Ensure year is above the line */
+   }
+   
+   .timeline-content { /*þarf að modifya þetta */
+     flex: 1;
+     display: flex;
+     align-items: center;
+     box-sizing: border-box;
+   
+     position: relative;
+   
+    /* margin-left: 100px; /* Space for the year and line  GERIR EKKERT GAFULEGT*/
+   }
+   
+   .text-container {
+     flex: 1;
+     padding-right: 100px; /* Space for the line and image */
+     padding-left: 100px;
+     position: relative; /* Ensure text container respects z-index */
+     z-index: 1; /* Ensure text container is above the line */
+   }
+   
+   .text {
+     color: #666;
+     line-height: 1.6;
+     min-width: 300px;
+     font-size: large;
+   }
+   
+   .timeline-img {
+     max-width: 400px;
+     width: 50% ; /* Adjust image width as needed VAR UPPRUNALEGA 400 PX en breytt utaf overflow vesenni */
+    /* margin-left: 16%; /* Space between text and image VAR 100px right lika */
+     /*margin-right: 16%;*/
+   
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 5%;
+     
+   }
+   
+   .timeline-img img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+   }
+   
+   .timeline-item:before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 50%; /* Center the line horizontally */
+     transform: translateX(-2px); /* Adjust to align with the year */
+     width: 4px; /* Line width */
+     height: 125%; /* Full height of the item VAR UPPRUNALEGA 100% OG HEFUR AHRIF A SVORTU LINUNA*/
+     background-color: #333; /* Line color */
+     z-index: 0; /* Ensure the line is behind content */
+   }
+   
+   .timeline-item2 { /*gert fyrir siðasta bozo i class*/
+     display: flex;
+     margin-bottom: 50px;
+     position: relative; /* Position relative for absolute positioning of year */
+   }
+   
