@@ -4,11 +4,15 @@
 
 {% for post in posts %}
 <hr>
+{{ post.image }}
+{% if post.thumbnail != null %}
+thumbnail: {{ post.thumbnail }}
+{% endif %}
 <a href="/news/post/{{post.slug}}">
     <h1> {{ post.title }} </h1>
 </a>
-Author: {{ post.author.name }}
-
+Höfundur: {{ post.author.name }}
+Gefið út: {{post.date}}
 {% endfor %}
 <hr>
 {% endblock %}
