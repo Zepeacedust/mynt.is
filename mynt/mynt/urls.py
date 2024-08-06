@@ -23,9 +23,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("news/", include("news.urls")),
     path('markdownx/', include('markdownx.urls')),
+    path("i18n/", include("django.conf.urls.i18n"))
 ]
 
 urlpatterns += i18n_patterns(
     path("", include("frontpage.urls")),
-    prefix_default_language=False
+    prefix_default_language=True
 )
