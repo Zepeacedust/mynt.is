@@ -1,368 +1,332 @@
 {% extends "main.html" %}
 {% load static %}
+{% load i18n %}
+
+
+{% block header_extra %}
+<link rel="stylesheet" href="{% static 'style/timeline.css' %}">
+{% endblock %}
 
 {% block body %}
-
-<html>
-<body>
-
 <div class="timeline">
     <div class="timeline-item">
         <div class="year">1968</div>
         <div class="timeline-content">
             <div class="text-container">
-                <p class="text">Hópur áhugasamra safnara tekur að ræða hugmyndir um stofnun sérstaks félags um
-                    mynt- og seðlasöfnun og auglýst er eftir einstaklingum sem vilja gerast aðilar að slíku félagi.</p>
+                <p class="text">{% translate "Hópur áhugasamra safnara tekur að ræða hugmyndir um stofnun sérstaks félags um mynt- og seðlasöfnun og auglýst er eftir einstaklingum sem vilja gerast aðilar að slíku félagi." %}
+                </p>
             </div>
             <div class="timeline-img">
                 <img src="{% static 'images/Myntsafnarafelagid19sept1968.jpg' %}" alt="Stofnunn">
             </div>
         </div>
     </div>
-    
+
     <div class="timeline-item">
         <div class="year">1969</div>
         <div class="timeline-content">
-             <div class="timeline-img">
+            <div class="timeline-img">
                 <img src="{% static 'images/Myntsafnarafelagid1969feb.jpg' %}" alt="Stofnunn">
             </div>
             <div class="text-container">
-                <p class="text">Þrjátíu safnarar eru boðaðir á sérstakan stofnfund í Norræna húsinu 19. janúar. Þar
-                    er Myntsafnarafélag Íslands stofnað og því gefið nafn. Helgi Jónsson kosinn fyrsti formaður
-                    MÍ. Í framhaldinu haldnir kynningar- og skiptifundir og verðlisti yfir mynt gefinn út.</p>
+                <p class="text">{% translate "Þrjátíu safnarar eru boðaðir á sérstakan stofnfund í Norræna húsinu 19. janúar. Þar er Myntsafnarafélag Íslands stofnað og því gefið nafn. Helgi Jónsson kosinn fyrsti formaður MÍ. Í framhaldinu haldnir kynningar- og skiptifundir og verðlisti yfir mynt gefinn út." %}</p>
             </div>
-            
-           
+
+
         </div>
     </div>
 
-    <div class="timeline">
-        <div class="timeline-item">
-            <div class="year">1970</div>
-            <div class="timeline-content">
-                <div class="text-container">
-                    <p class="text">MÍ kynnir félagið fyrir almenningi með þátttöku í sýningunni Við unga fólkið í Tónabæ.
-                        Fyrsti uppboðsfundur haldinn og félagið gengur í American Numismatic Association. Félagar
-                        orðnir 150 talsins á ársafmælinu.</p>
-                </div>
-                <div class="timeline-img">
-                    <img src="{% static 'images/Myntsafnarafelagid1970jan.jpg' %}" alt="Stofnunn">
-                </div>
+    <div class="timeline-item">
+        <div class="year">1970</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "MÍ kynnir félagið fyrir almenningi með þátttöku í sýningunni Við unga fólkið í Tónabæ. Fyrsti uppboðsfundur haldinn og félagið gengur í American Numismatic Association. Félagar orðnir 150 talsins á ársafmælinu." %}</p>
             </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid1970jan.jpg' %}" alt="Stofnunn">
+            </div>
+        </div>
     </div>
 
     <div class="timeline-item">
         <div class="year">1972</div>
         <div class="timeline-content">
-             <div class="timeline-img">
+            <div class="timeline-img">
                 <img src="{% static 'images/Myntsafnarafelagid1972april.jpg' %}" alt="Stofnunn">
             </div>
             <div class="text-container">
-                <p class="text">MÍ heldur veglega sýningu í Bogasal Þjóðminjasafns Íslands; fyrsta myntsýning sem
-                    haldin hefur verið á Íslandi.</p>
+                <p class="text">{% translate "MÍ heldur veglega sýningu í Bogasal Þjóðminjasafns Íslands; fyrsta myntsýning sem haldin hefur verið á Íslandi." %}</p>
             </div>
-                
-               
+
+
         </div>
     </div>
 
-    <div class="timeline">
     <div class="timeline-item">
         <div class="year">1973</div>
         <div class="timeline-content">
             <div class="text-container">
-                <p class="text">Starfsemin komin í fremur fastar skorður. Haldnir eru mánaðarlegir skiptifundir og
-                    regluleg uppboð. Erlendur fyrirlesari fenginn til landsins.</p>
+                <p class="text">{% translate "Starfsemin komin í fremur fastar skorður. Haldnir eru mánaðarlegir skiptifundir og regluleg uppboð. Erlendur fyrirlesari fenginn til landsins." %}</p>
             </div>
             <div class="timeline-img">
                 <img src="{% static 'images/Myntsafnarafelagid1973okto.jpg' %}" alt="Stofnunn">
             </div>
         </div>
     </div>
-    
+
     <div class="timeline-item">
         <div class="year">1974</div>
         <div class="timeline-content">
-             <div class="timeline-img">
+            <div class="timeline-img">
                 <img src="{% static 'images/Myntsafnarafelagid1974des.jpg' %}" alt="Stofnunn">
             </div>
             <div class="text-container">
-                <p class="text">Félagar orðnir 250 talsins.</p>
+                <p class="text">{% translate "Félagar orðnir 250 talsins." %}</p>
             </div>
-            
-           
+
+
         </div>
     </div>
 
-    <div class="timeline">
-        <div class="timeline-item">
-            <div class="year">1975</div>
-            <div class="timeline-content">
-                <div class="text-container">
-                    <p class="text">Nýtt merki tekið í notkun. Fastir pistlar um myntsöfnun og málefni félagsins hefja
-                        göngu sína í Morgunblaðinu. Svokölluðum skiptiklúbb komið á laggirnar í húsnæði á
-                        Rauðarárstíg. MÍ heldur sýningu á seðlum og mynt í Hagaskóla, í samstarfi við
-                        Landssamband íslenzkra frímerkjasafnara.</p>
-                </div>
-                <div class="timeline-img">
-                    <img src="{% static 'images/Myntsafnarafelagid1975Maiman.jpg' %}" alt="Stofnunn">
-                </div>
+    <div class="timeline-item">
+        <div class="year">1975</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "Nýtt merki tekið í notkun. Fastir pistlar um myntsöfnun og málefni félagsins hefja göngu sína í Morgunblaðinu. Svokölluðum skiptiklúbb komið á laggirnar í húsnæði á Rauðarárstíg. MÍ heldur sýningu á seðlum og mynt í Hagaskóla, í samstarfi við Landssamband íslenzkra frímerkjasafnara." %}</p>
             </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid1975Maiman.jpg' %}" alt="Stofnunn">
+            </div>
+        </div>
     </div>
 
     <div class="timeline-item">
         <div class="year">1976</div>
         <div class="timeline-content">
-             <div class="timeline-img">
+            <div class="timeline-img">
                 <img src="{% static 'images/Myntsafnarafelagid1976nov.jpg' %}" alt="Stofnunn">
             </div>
             <div class="text-container">
-                <p class="text">Blað félagsins, Mynt, kemur út í fyrsta skipti, með fréttum af félagsstarfi,
-                    margvíslegum fróðleik og uppboðsskrá. Tveir félagsfundnir haldnir í mánuði, annars vegar
-                    klúbbfundur í Domus Medica og hins vegar uppboðsfundur í Templarahöllinni.</p>
+                <p class="text">{% translate "Blað félagsins, Mynt, kemur út í fyrsta skipti, með fréttum af félagsstarfi, margvíslegum fróðleik og uppboðsskrá. Tveir félagsfundnir haldnir í mánuði, annars vegar klúbbfundur í Domus Medica og hins vegar uppboðsfundur í Templarahöllinni." %}</p>
             </div>
-                
-               
+
+
         </div>
     </div>
 
-    <div class="timeline">
-        <div class="timeline-item">
-            <div class="year">1977</div>
-            <div class="timeline-content">
-                <div class="text-container">
-                    <p class="text">Félagar orðnir 350 talsins.</p>
-                </div>
-                <div class="timeline-img">
-                    <img src="{% static 'images/MyntsafnarafelagidAkueyri1976.jpg' %}" alt="Stofnunn">
-                </div>
+    <div class="timeline-item">
+        <div class="year">1977</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "Félagar orðnir 350 talsins." %}</p>
+            </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/MyntsafnarafelagidAkueyri1976.jpg' %}" alt="Stofnunn">
             </div>
         </div>
-        
-        <div class="timeline-item">
-            <div class="year">1979</div>
-            <div class="timeline-content">
-                 <div class="timeline-img">
-                    <img src="{% static 'images/MyntsafnarafelagMinnispeningar.jpg' %}" alt="Stofnunn">
-                </div>
-                <div class="text-container">
-                    <p class="text">Fyrsti minnispeningur MÍ kemur út í tilefni af 10 ára afmæli félagsins. Efnt til
-                        afmælissýningar í Bogasal Þjóðminjasafns Íslands.</p>
-                </div>
-                
-               
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1979</div>
+        <div class="timeline-content">
+            <div class="timeline-img">
+                <img src="{% static 'images/MyntsafnarafelagMinnispeningar.jpg' %}" alt="Stofnunn">
+            </div>
+            <div class="text-container">
+                <p class="text">{% translate "Fyrsti minnispeningur MÍ kemur út í tilefni af 10 ára afmæli félagsins. Efnt til afmælissýningar í Bogasal Þjóðminjasafns Íslands." %}</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1982</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "MÍ heldur vel heppnaða myntsýningu og markað á Akureyri í samstarfi við félag frímerkjasafnara þar." %}</p>
+            </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid1982sept.jpg' %}" alt="Stofnunn">
             </div>
         </div>
-    
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="year">1982</div>
-                <div class="timeline-content">
-                    <div class="text-container">
-                        <p class="text">MÍ heldur vel heppnaða myntsýningu og markað á Akureyri í samstarfi við félag
-                            frímerkjasafnara þar.</p>
-                    </div>
-                    <div class="timeline-img">
-                        <img src="{% static 'images/Myntsafnarafelagid1982sept.jpg' %}" alt="Stofnunn">
-                    </div>
-                </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1983</div>
+        <div class="timeline-content">
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagidsedill.jpg' %}" alt="Stofnunn">
+            </div>
+            <div class="text-container">
+                <p class="text">{% translate "Myntsafnarafélag Íslands gerist aðili að Norræna myntsambandinu (Nordic Numismatic Union)." %}</p>
+            </div>
+
+
         </div>
-    
-        <div class="timeline-item">
-            <div class="year">1983</div>
-            <div class="timeline-content">
-                 <div class="timeline-img">
-                    <img src="{% static 'images/Myntsafnarafelagidsedill.jpg' %}" alt="Stofnunn">
-                </div>
-                <div class="text-container">
-                    <p class="text">Myntsafnarafélag Íslands gerist aðili að Norræna myntsambandinu (Nordic
-                        Numismatic Union).</p>
-                </div>
-                    
-                   
+    </div>
+
+
+    <div class="timeline-item">
+        <div class="year">1984</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "MÍ tekur þátt í NORDIA-frímerkjasýningunni í Laugardalshöll í fyrsta skipti." %}</p>
+            </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/MyntsafnarafelagidSedill50.jpg' %}" alt="Stofnunn">
             </div>
         </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1986</div>
+        <div class="timeline-content">
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid1986mai.jpg' %}" alt="Stofnunn">
+            </div>
+            <div class="text-container">
+                <p class="text">{% translate "Fyrsti safnararmarkaður MÍ haldinn í samstarfi við nokkur önnur félög safnara á Íslandi." %}</p>
+            </div>
 
 
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="year">1984</div>
-                <div class="timeline-content">
-                    <div class="text-container">
-                        <p class="text">MÍ tekur þátt í NORDIA-frímerkjasýningunni í Laugardalshöll í fyrsta skipti.</p>
-                    </div>
-                    <div class="timeline-img">
-                        <img src="{% static 'images/MyntsafnarafelagidSedill50.jpg' %}" alt="Stofnunn">
-                    </div>
-                </div>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1989</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "MÍ er í fyrsta skipti gestgjafi þings Norræna myntsambandsins. Tuttugu ára afmæli félagsins er fagnað með útgáfu minnispenings." %}</p>
             </div>
-            
-            <div class="timeline-item">
-                <div class="year">1986</div>
-                <div class="timeline-content">
-                     <div class="timeline-img">
-                        <img src="{% static 'images/Myntsafnarafelagid1986mai.jpg' %}" alt="Stofnunn">
-                    </div>
-                    <div class="text-container">
-                        <p class="text">Fyrsti safnararmarkaður MÍ haldinn í samstarfi við nokkur önnur félög safnara á
-                            Íslandi.</p>
-                    </div>
-                    
-                   
-                </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/MyntsafnarafelagidNNU1989i.jpg' %}" alt="Stofnunn">
             </div>
-        
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="year">1989</div>
-                    <div class="timeline-content">
-                        <div class="text-container">
-                            <p class="text">MÍ er í fyrsta skipti gestgjafi þings Norræna myntsambandsins. Tuttugu ára afmæli
-                                félagsins er fagnað með útgáfu minnispenings.</p>
-                        </div>
-                        <div class="timeline-img">
-                            <img src="{% static 'images/MyntsafnarafelagidNNU1989i.jpg' %}" alt="Stofnunn">
-                        </div>
-                    </div>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1990</div>
+        <div class="timeline-content">
+            <div class="timeline-img">
+                <img src="{% static 'images/MyntsafnarafelagidSedill5.jpg' %}" alt="Stofnunn">
             </div>
-        
-            <div class="timeline-item">
-                <div class="year">1990</div>
-                <div class="timeline-content">
-                     <div class="timeline-img">
-                        <img src="{% static 'images/MyntsafnarafelagidSedill5.jpg' %}" alt="Stofnunn">
-                    </div>
-                    <div class="text-container">
-                        <p class="text">MÍ fær nýtt aðsetur í húsnæði Landssambands íslenzkra frímerkjasafnara í Síðumúla
-                            17 og hefur frá þeim tíma haft þar helstu bækistöðvar fyrir starfsemi sína.</p>
-                    </div>
-                        
-                       
-                </div>
+            <div class="text-container">
+                <p class="text">{% translate "MÍ fær nýtt aðsetur í húsnæði Landssambands íslenzkra frímerkjasafnara í Síðumúla 17 og hefur frá þeim tíma haft þar helstu bækistöðvar fyrir starfsemi sína." %}</p>
             </div>
 
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="year">1995</div>
-                    <div class="timeline-content">
-                        <div class="text-container">
-                            <p class="text">MÍ stendur að röð fræðslufunda, 7-10 á ári, næstu misseri um margvísleg efni sem
-                                tengjast söfnun.</p>
-                        </div>
-                        <div class="timeline-img">
-                            <img src="{% static 'images/Myntsafnarafelagbunadar2.jpg' %}" alt="Stofnunn">
-                        </div>
-                    </div>
-            </div>
-        
-            <div class="timeline-item">
-                <div class="year">1997</div>
-                <div class="timeline-content">
-                     <div class="timeline-img">
-                        <img src="{% static 'images/Myntsafnarafelagid1997oktob.jpg' %}" alt="Stofnunn">
-                    </div>
-                    <div class="text-container">
-                        <p class="text">MÍ heldur mjög vel heppnaða sýningu í Hafnarborg. Aukin breidd í söfnun
-                            félagsmanna kemur þar vel í ljós.</p>
-                    </div>
-                        
-                       
-                </div>
-            </div>            
 
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="year">2003</div>
-                    <div class="timeline-content">
-                        <div class="text-container">
-                            <p class="text">MÍ fikrar sig inn í tölvuöld með því að opna heimasíðu á netinu.</p>
-                        </div>
-                        <div class="timeline-img">
-                            <img src="{% static 'images/Myntsafnarafelagid2002okt.jpg' %}" alt="2002 Auglysing">
-                        </div>
-                    </div>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1995</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "MÍ stendur að röð fræðslufunda, 7-10 á ári, næstu misseri um margvísleg efni sem tengjast söfnun." %}</p>
             </div>
-        
-            <div class="timeline-item">
-                <div class="year">2012</div>
-                <div class="timeline-content">
-                     <div class="timeline-img">
-                        <img src="{% static 'images/Myntsafnarafelagid2012Nor14.jpg' %}" alt="Stofnunn">
-                    </div>
-                    <div class="text-container">
-                        <p class="text">MÍ heldur glæsilega sýningu í Norræna húsinu. Fjölbreytnin í fyrirrúmi og aðsókn
-                            mjög góð.</p>
-                    </div>
-                        
-                       
-                </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagbunadar2.jpg' %}" alt="Stofnunn">
             </div>
-            
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="year">2014</div>
-                    <div class="timeline-content">
-                        <div class="text-container">
-                            <p class="text">MÍ kemur sér upp facebook-síðu til að koma á framfæri tilkynningum og fréttum af
-                                hefðbundnu starfi.</p>
-                        </div>
-                        <div class="timeline-img">
-                            <img src="{% static 'images/Myntsafnarafelagid2011.jpg' %}" alt="2011 mynd">
-                        </div>
-                    </div>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1997</div>
+        <div class="timeline-content">
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid1997oktob.jpg' %}" alt="Stofnunn">
             </div>
-        
-            <div class="timeline-item">
-                <div class="year">2019</div>
-                <div class="timeline-content">
-                     <div class="timeline-img">
-                        <img src="{% static 'images/Myntsafnarafelagid2019f.jpg' %}" alt="Syning 2019 i ferdafeglagi islands">
-                    </div>
-                    <div class="text-container">
-                        <p class="text">- MÍ heldur metnaðarfulla sýningu í sal Ferðafélags Íslands í tilefni ef 50 ára afmæli
-                            félagsins. Sýningin fær mikla umfjöllun og athygli og staðfestir að félagið er öflugur
-                            vettvangur safnara af öllu tagi.</p>
-                    </div>
-                        
-                       
-                </div>
+            <div class="text-container">
+                <p class="text">{% translate "MÍ heldur mjög vel heppnaða sýningu í Hafnarborg. Aukin breidd í söfnun félagsmanna kemur þar vel í ljós." %}</p>
             </div>
 
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="year">2023</div>
-                    <div class="timeline-content">
-                        <div class="text-container">
-                            <p class="text">Fjöldi félaga 289.</p>
-                        </div>
-                        <div class="timeline-img">
-                            <img src="{% static 'images/5050.jpg' %}" alt="Stofnunn">
-                        </div>
-                    </div>
+
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">2003</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "MÍ fikrar sig inn í tölvuöld með því að opna heimasíðu á netinu." %}</p>
             </div>
-        
-            <div class="timeline-item2"> <!--tharf ad messa i essu utaf ad losa vid black line vesenid losnar nedsti dalkurinn-->
-                <div class="year">2024</div>
-                <div class="timeline-content">
-                     <div class="timeline-img">
-                        <img src="{% static 'images/MyntsafnarafelagidRadhus8.jpg' %}" alt="Stofnunn">
-                    </div>
-                    <div class="text-container">
-                        <p class="text">MÍ heldur mánaðarlega uppboðsfundi fyrir félagsmenn, tíu mánuði á ári, gefur út
-                            Mynt-blaðið og heldur tvo safnaramarkaði á ári, opna almenningi. Ný heimasíða tekin í
-                            notkun. Starfsemin er í traustum farvegi og faðmur félagsins breiður.</p>
-                    </div>
-                        
-                       
-                </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid2002okt.jpg' %}" alt="2002 Auglysing">
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">2012</div>
+        <div class="timeline-content">
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid2012Nor14.jpg' %}" alt="Stofnunn">
+            </div>
+            <div class="text-container">
+                <p class="text">{% translate "MÍ heldur glæsilega sýningu í Norræna húsinu. Fjölbreytnin í fyrirrúmi og aðsókn mjög góð." %}</p>
             </div>
 
-            <br>
+
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">2014</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "MÍ kemur sér upp facebook-síðu til að koma á framfæri tilkynningum og fréttum af hefðbundnu starfi." %}</p>
+            </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid2011.jpg' %}" alt="2011 mynd">
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">2019</div>
+        <div class="timeline-content">
+            <div class="timeline-img">
+                <img src="{% static 'images/Myntsafnarafelagid2019f.jpg' %}" alt="Syning 2019 i ferdafeglagi islands">
+            </div>
+            <div class="text-container">
+                <p class="text">{% translate "MÍ heldur metnaðarfulla sýningu í sal Ferðafélags Íslands í tilefni ef 50 ára afmæli félagsins. Sýningin fær mikla umfjöllun og athygli og staðfestir að félagið er öflugur vettvangur safnara af öllu tagi." %}</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">2023</div>
+        <div class="timeline-content">
+            <div class="text-container">
+                <p class="text">{% translate "Fjöldi félaga 289." %}</p>
+            </div>
+            <div class="timeline-img">
+                <img src="{% static 'images/5050.jpg' %}" alt="Stofnunn">
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline-item2">
+        <!--tharf ad messa i essu utaf ad losa vid black line vesenid losnar nedsti dalkurinn-->
+        <div class="year">2024</div>
+        <div class="timeline-content">
+            <div class="timeline-img">
+                <img src="{% static 'images/MyntsafnarafelagidRadhus8.jpg' %}" alt="Stofnunn">
+            </div>
+            <div class="text-container">
+                <p class="text">{% translate "MÍ heldur mánaðarlega uppboðsfundi fyrir félagsmenn, tíu mánuði á ári, gefur út Mynt-blaðið og heldur tvo safnaramarkaði á ári, opna almenningi. Ný heimasíða tekin í notkun. Starfsemin er í traustum farvegi og faðmur félagsins breiður." %}</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <br>
     <!-- Add more timeline items as needed -->
-    
-</div>
 
-</body>
-</html>
+</div>
 
 {% endblock %}

@@ -1,30 +1,32 @@
 {% load static %}
+{% load i18n %}
 
 
-
-
-<div class="menu-burger sidebar-container">
-  <input type="checkbox" />
-  <svg
+<div class="sidebar-manager ">
+  <input type="checkbox" class="menu-burger"/>
+    <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="icon icon-tabler icon-tabler-menu-2"
+    class="icon icon-tabler icon-tabler-menu-2 menu-burger"
     viewBox="0 0 24 24"
     stroke-width="2"
     stroke="currentColor"
     fill="none"
     stroke-linecap="round"
     stroke-linejoin="round"
-  >
+    >
     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <line x1="4" y1="6" x2="20" y2="6" />
     <line x1="4" y1="12" x2="20" y2="12" />
     <line x1="4" y1="18" x2="20" y2="18" />
   </svg>
-  <ul class="menu-burger__item-list navlinks">
-    <li><a href="#">Um Félagið</a></li>
-    <li><a href="#">Saga Félagsins</a></li>
-    <li><a href="/news">Fréttir</a></li>
-    <li><a href="/tenglar">Ýmsir Tenglar</a></li>
-    <li><a href="#">Saga Íslenskra Gjaldmiðla</a></li>
-  </ul>
+  <div class="sidebar-container">
+    <ul class="navlinks">
+      <li><a href="/">{% translate "Um Félagið" %}</a></li>
+      <li><a href="/saga">{% translate "Saga Félagsins" %}</a></li>
+      <li><a href="/news">{% translate "Fréttir" %}</a></li>
+      <!-- <li><a href="/tenglar">Ýmsir Tenglar</a></li> -->
+      <li><a href="/timeline">{% translate "Tímalína Félagsins" %}</a></li>
+    </ul>
+    {% include "language_switcher/language_switcher.html" %}
+  </div>
 </div>

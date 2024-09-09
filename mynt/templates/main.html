@@ -9,6 +9,10 @@
         </title>
         <link rel="shortcut icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
         <link rel="stylesheet" href="{% static 'style/style.css' %}">
+
+        {% block header_extra %}
+        {% endblock %}
+
     </head>
     <body>
         {% include "sidebar/sidebar.html" %}
