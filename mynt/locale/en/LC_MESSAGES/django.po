@@ -43,7 +43,7 @@ msgstr ""
 
 #: templates/frontpage/index.html:17
 msgid "Stjórn Myntsafnarafélags Íslands 2024"
-msgstr "Board of directors if The Icelandic Numismatic Association 2024"
+msgstr "Board of directors of The Icelandic Numismatic Association 2024"
 
 #: templates/frontpage/index.html:28
 msgid "Skoðunarmenn reikninga"

@@ -14,6 +14,7 @@
 }
 
 .navlinks a{
+  color: lightgreen;
   text-decoration: none;
   font-family: BebasNeue-Regular;
   /*font-size: 17px;*/
@@ -22,7 +23,7 @@
 }
 
 .navlinks a:hover{
-  color: rgb(255,149,0);
+  color: rgb(149,255,0);
 }
 
 /*
@@ -37,7 +38,7 @@
 .sidebar-container {
   top: 0em;
   z-index: 1;
-  background: rgb(169,0,0 );
+  background: rgb(42,69, 192 );
   height: 100%;
   min-width: 18em;
   padding: 1em;
@@ -85,6 +86,11 @@ footer {
   font-style: italic;
   font-weight: bold;
   font-size: small;
+  display: flex;
+}
+
+.footer_element {
+  flex-grow: 1;
 }
 
 /*
@@ -98,12 +104,36 @@ header {
 /*--------------- header thingy-----------------*/
 
 header {
-position: sticky;
-top: 0em;
-z-index: 1; /*var 1*/
-background-color: rgb(167, 0, 0);
-text-align: center;
-padding: 1em;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0em;
+  z-index: 1; /*var 1*/
+  background-color: rgb(42,69, 192 );
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1em;
+}
+
+.header_element {
+  flex-grow: 1;
+  margin: 0em 1em;
+}
+.header_element a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.header_element a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+.header_element.a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 /*------------temp things---------*/
@@ -131,7 +161,7 @@ svg.menu-burger  {
 }
 
 ul.menu-burger__item-list {
-  background: rgb(167, 0, 0);/*#ebdbb2;*/
+  background: rgb(42,69, 192 );/*#ebdbb2;*/
   /*bottom: 0;*/
   color: #3c3836;
   list-style: none;

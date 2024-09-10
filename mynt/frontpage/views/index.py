@@ -6,7 +6,7 @@ from mixins.ViewTitleMixin import ViewTitleMixin
 # Create your views here.
 
 class Index(ViewTitleMixin, View):
-    name = "dashboard"
+    name = "frontPage"
     title = "Myntsafnarafélag Íslands"
     
     template_name = 'frontpage/index.html'
