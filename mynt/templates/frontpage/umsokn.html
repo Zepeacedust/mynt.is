@@ -1,1 +1,14 @@
+{% load i18n %}
 {% extends "main.html" %}
+
+{% block body %}
+
+{% translate "Sláðu in nafn og netfang og við verðum í sambandi innan skamms"%}
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+
+{{ Message }}
+{% endblock %}

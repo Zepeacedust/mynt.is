@@ -2,11 +2,20 @@
 {% load i18n %}
 {% load static %}
 
+
+{% block pre_header %}
+<div style="text-align: center; margin: 1em;">
+    <a href="/umsokn"><h1>Gerast meðlimur</h1></a>
+</div>
+{% endblock%}
+
+
 {% block body %}
 
-
-
-<h2>
+<h1>{% translate "Heimili Allra Safnara"%}</h1>
+<img src="{% static 'images/MyntsafnarafelagidMinnispeningar.jpg' %}" alt="">
+<h2> {% translate "Myntsafnarafélag Íslands er öllum velkomið"%}</h2>
+<p>
     {% blocktranslate trimmed%}
     <b>Myntsafnarafélag Íslands</b> er öflugur vettvangur safnara á Íslandi. Ef þú safnar t.d. mynt,
     seðlum, tunnumerkjum, einkagjaldmiðlum, minnispeningum, einkennismerkjum,
@@ -14,7 +23,6 @@
     félagsskapurinn fyrir þig. Innan MÍ eru áhugasamir safnarar á öllum þessum og ótal fleiri
     sviðum. Allir hjartanlega velkomnir. 
     {% endblocktranslate %}
-</h2>
-<img src="{% static 'images/MyntsafnarafelagidMinnispeningar.jpg' %}" alt="">
+</p>
 
 {% endblock %}

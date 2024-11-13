@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 15:41+0000\n"
+"POT-Creation-Date: 2024-10-23 15:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: templates/frontpage/index.html:7
+#: templates/frontpage/about.html:7 templates/frontpage/index.html:19
 msgid ""
 "<b>Myntsafnarafélag Íslands</b> er öflugur vettvangur safnara á Íslandi. Ef "
 "þú safnar t.d. mynt, seðlum, tunnumerkjum, einkagjaldmiðlum, minnispeningum, "
@@ -41,23 +41,23 @@ msgstr ""
 "you. Within INA, there are enthusiastic collectors in all these fields "
 "andcountless more. Everyone is welcome."
 
-#: templates/frontpage/index.html:17
+#: templates/frontpage/about.html:17
 msgid "Stjórn Myntsafnarafélags Íslands 2024"
 msgstr "Board of directors of The Icelandic Numismatic Association 2024"
 
-#: templates/frontpage/index.html:28
+#: templates/frontpage/about.html:28
 msgid "Skoðunarmenn reikninga"
 msgstr "Auditors of Accounts"
 
-#: templates/frontpage/index.html:35
+#: templates/frontpage/about.html:35
 msgid "Uppstillingarnefnd, skipuð af stjórn"
 msgstr "Nomination Committe, appointed by the board"
 
-#: templates/frontpage/index.html:42
+#: templates/frontpage/about.html:42
 msgid "Uppboðsnefnd, skipuð af stjórn"
 msgstr "Auction Comittee, appointed by the board"
 
-#: templates/frontpage/index.html:49
+#: templates/frontpage/about.html:49
 msgid ""
 "Félagsmenn geta lagt inn muni á mánaðarleg uppboð félagsins. Fjölbreytt efni "
 "er boðið upp á hverju uppboði. Ástand muna getur verið á ýmsa vegu, frá því "
@@ -67,7 +67,7 @@ msgstr ""
 "auctions. Avariety of materials are offered at each auction. Items can be in "
 "a range of conditions, fromheavily used to completely unused."
 
-#: templates/frontpage/index.html:57
+#: templates/frontpage/about.html:57
 msgid ""
 "Ef að félagar MÍ vilja selja muni á uppboðum félagsins er þeim bent á að "
 "hafa samband viðuppboðsnefndina:"
@@ -75,7 +75,7 @@ msgstr ""
 "If INA members want to sell items at the association's auctions, they are "
 "advised to contact the auction committee:"
 
-#: templates/frontpage/index.html:64
+#: templates/frontpage/about.html:64
 msgid ""
 "Einnig er hægt að senda póst á netfangið: <a href=\"mailto:"
 "myntsafnarafelagid@gmail.com\">myntsafnarafelagid@gmail.com</a> og spyrjast "
@@ -84,7 +84,7 @@ msgstr ""
 "You can also send an email to <a href=\"mailto:myntsafnarafelagid@gmail."
 "com\">myntsafnarafelagid@gmail.com</a>All emails are answered."
 
-#: templates/frontpage/index.html:73
+#: templates/frontpage/about.html:73
 msgid ""
 "Þeir sem vilja koma einhverju á framfæri í blaðið Mynt er bent á að senda "
 "póst á netfangið: <a href=\"mailto:myntsafnarafelagid@gmail."
@@ -94,67 +94,77 @@ msgstr ""
 "email to: <a href=\"mailto:myntsafnarafelagid@gmail."
 "com\">myntsafnarafelagid@gmail.com</a>"
 
-#: templates/frontpage/index.html:79
+#: templates/frontpage/about.html:79
 msgid "Fyrrum formenn MÍ, gjaldkerar og ritarar"
 msgstr "Former INA Chairmen, Secretaries, and Treasurers"
 
-#: templates/frontpage/index.html:80
+#: templates/frontpage/about.html:80
 msgid "Formenn:"
 msgstr "Chairmen:"
 
-#: templates/frontpage/index.html:100
+#: templates/frontpage/about.html:100
 msgid "Ritarar"
 msgstr "Secretaries"
 
-#: templates/frontpage/index.html:117
+#: templates/frontpage/about.html:117
 msgid "Gjaldkerar"
 msgstr "Treasurers"
 
-#: templates/frontpage/index.html:130
+#: templates/frontpage/about.html:130
 msgid "Heiðursfélagar Myntsafnarafélags Íslands"
 msgstr "Honorary Members of The Icelandic Numismatic Association"
 
-#: templates/frontpage/index.html:144
+#: templates/frontpage/about.html:144
 msgid "Minnispeningar Myntsafnarafélags Íslands (Útgáfuár og tilefni útgáfu)"
 msgstr ""
 "Commemorative Coins of The Icelandic Numismatic Association (Year of "
 "publication and occasion of publication)"
 
-#: templates/frontpage/index.html:146
+#: templates/frontpage/about.html:146
 msgid "1979: 10 ára afmæli MÍ."
 msgstr "1979: 10th anniversary of INA"
 
-#: templates/frontpage/index.html:147
+#: templates/frontpage/about.html:147
 msgid "1989: 20 ára afmæli MÍ og þing Norræna myntsambandsins í Reykjavík."
 msgstr ""
 "1989: 20th anniversary of INA and the meeting of the Nordic Numismatic Union "
 "in Reykjavík"
 
-#: templates/frontpage/index.html:148
+#: templates/frontpage/about.html:148
 msgid "1994: 25 ára afmæli MÍ."
 msgstr "1994: 25th anniversary of INA"
 
-#: templates/frontpage/index.html:149
+#: templates/frontpage/about.html:149
 msgid "1997: Sýning MÍ í Hafnarborg."
 msgstr "1997: INA exhibition in Hafnarborg"
 
-#: templates/frontpage/index.html:150
+#: templates/frontpage/about.html:150
 msgid "2003: Þing Norræna myntsambandsins í Reykjavík."
 msgstr "2003: Congress of the Nordic Numismatic Union in Reykjavík"
 
-#: templates/frontpage/index.html:151
+#: templates/frontpage/about.html:151
 msgid "2009: 40 ára afmæli MÍ."
 msgstr "2009: 40th anniversary of INA"
 
-#: templates/frontpage/index.html:152
+#: templates/frontpage/about.html:152
 msgid "2012: Sýning MÍ í Norræna húsinu."
 msgstr "2012: INA exhibition in the Nordic House"
 
-#: templates/frontpage/index.html:153
+#: templates/frontpage/about.html:153
 msgid "2019: 50 ára afmæli MÍ og sýning í sal Ferðafélags Íslands."
 msgstr ""
 "2019: 50th anniversary of INA and an exhibition in the hall of the Iceland "
 "Touring Association"
+
+#: templates/frontpage/index.html:15
+msgid "Heimili Allra Safnara"
+msgstr "A Home for All Collectors"
+
+#: templates/frontpage/index.html:17
+#, fuzzy
+#| msgid "Stjórn Myntsafnarafélags Íslands 2024"
+msgid "Myntsafnarafélag Íslands er öllum velkomið"
+msgstr "The Icelandic Numismatic Association is open to all"
 
 #: templates/frontpage/saga.html:7
 msgid "Víðfeðmur og frjór vettvangur safnara"
@@ -364,7 +374,7 @@ msgstr ""
 
 #: templates/frontpage/saga.html:117
 msgid "Vaskur frumkvöðlahópur"
-msgstr ""
+msgstr "A Dynamic Group of Entrepeneurs"
 
 #: templates/frontpage/saga.html:119
 msgid ""
@@ -954,10 +964,11 @@ msgid ""
 "Hópur áhugasamra safnara tekur að ræða hugmyndir um stofnun sérstaks félags "
 "um mynt- og seðlasöfnun og auglýst er eftir einstaklingum sem vilja gerast "
 "aðilar að slíku félagi."
-msgstr "A group of enthusiastic collectors begins to discuss ideas for the"
-"establishment of a special association for coin and banknote collecting. Ads are put"
-"into the country's newspapers to look for individuals who wish to become members"
-"of such an association."
+msgstr ""
+"A group of enthusiastic collectors begins to discuss ideas for "
+"the establishment of a special association for coin and banknote collecting. "
+"Ads are put into the country's newspapers to look for individuals who wish to "
+"become members of such an association."
 
 #: templates/frontpage/timeline.html:32
 msgid ""
@@ -965,34 +976,38 @@ msgid ""
 "janúar. Þar er Myntsafnarafélag Íslands stofnað og því gefið nafn. Helgi "
 "Jónsson kosinn fyrsti formaður MÍ. Í framhaldinu haldnir kynningar- og "
 "skiptifundir og verðlisti yfir mynt gefinn út."
-msgstr "Thirty collectors are invited to a special founding meeting at the Nordic House"
-"in Reykjavík on January 19th. The Icelandic Numismatic Association (INA) is"
-"founded there and then and given its name. Helgi Jónsson is elected first chairman"
-"of the board of INA. Subsequently, introductory and exchange meetings are held,"
-"and a price list of coins is published."
+msgstr ""
+"Thirty collectors are invited to a special founding meeting at the Nordic "
+"House in Reykjavík on January 19th. The Icelandic Numismatic Association "
+"(INA) is founded there and then and given its name. Helgi Jónsson is elected "
+"first chairman of the board of INA. Subsequently, introductory and exchange "
+"meetings are held, and a price list of coins is published."
 
 #: templates/frontpage/timeline.html:43
 msgid ""
 "MÍ kynnir félagið fyrir almenningi með þátttöku í sýningunni Við unga fólkið "
 "í Tónabæ. Fyrsti uppboðsfundur haldinn og félagið gengur í American "
 "Numismatic Association. Félagar orðnir 150 talsins á ársafmælinu."
-msgstr "INA introduces the association to the public by participating in the exhibition"
-"We are the Young People. The first auction meeting is held, and INA joins the"
-"American Numismatic Association. Membership now totals 150."
+msgstr ""
+"INA introduces the association to the public by participating in the "
+"exhibition We are the Young People. The first auction meeting is held, and "
+"INA joins the American Numismatic Association. Membership now totals 150."
 
 #: templates/frontpage/timeline.html:58
 msgid ""
 "MÍ heldur veglega sýningu í Bogasal Þjóðminjasafns Íslands; fyrsta "
 "myntsýning sem haldin hefur verið á Íslandi."
-msgstr "INA holds a successful exhibition in the Bogasal of the National Museum of"
-"Iceland; the first coin exhibition ever held in Iceland."
+msgstr ""
+"INA holds a successful exhibition in the Bogasal of the National Museum "
+"of Iceland; the first coin exhibition ever held in Iceland."
 
 #: templates/frontpage/timeline.html:69
 msgid ""
 "Starfsemin komin í fremur fastar skorður. Haldnir eru mánaðarlegir "
 "skiptifundir og regluleg uppboð. Erlendur fyrirlesari fenginn til landsins."
-msgstr "Monthly swap meets and regular auctions are held. A foreign lecturer is"
-"brought to the country."
+msgstr ""
+"Monthly swap meets and regular auctions are held. A foreign lecturer "
+"is brought to the country."
 
 #: templates/frontpage/timeline.html:84
 msgid "Félagar orðnir 250 talsins."
@@ -1004,11 +1019,12 @@ msgid ""
 "hefja göngu sína í Morgunblaðinu. Svokölluðum skiptiklúbb komið á laggirnar "
 "í húsnæði á Rauðarárstíg. MÍ heldur sýningu á seðlum og mynt í Hagaskóla, í "
 "samstarfi við Landssamband íslenzkra frímerkjasafnara."
-msgstr "A new logo is introduced. Regular columns about coin collecting and the"
-"association's affairs are published in the daily newspaper Morgunblaðið. An"
-"exchange club is set up in a location in the city center. INA holds an exhibition of"
-"banknotes and coins at Hagaskóli, in collaboration with The Icelandic Stamp"
-"Collectors Federation."
+msgstr ""
+"A new logo is introduced. Regular columns about coin collecting and "
+"the association's affairs are published in the daily newspaper Morgunblaðið. "
+"Anexchange club is set up in a location in the city center. INA holds an "
+"exhibition of banknotes and coins at Hagaskóli, in collaboration with The "
+"Icelandic Stamp Collectors Federation."
 
 #: templates/frontpage/timeline.html:110
 msgid ""
@@ -1016,11 +1032,12 @@ msgid ""
 "margvíslegum fróðleik og uppboðsskrá. Tveir félagsfundnir haldnir í mánuði, "
 "annars vegar klúbbfundur í Domus Medica og hins vegar uppboðsfundur í "
 "Templarahöllinni."
-msgstr "The association's magazine, Mynt, is published for the first time. It contains"
-"news of association activities, a variety of information about numismatics, and an"
-"auction catalog. Two social meetings are held a month, one a club meeting in"
-"Domus Medica and the other an auction meeting in a hall belonging to the I.O.O.F. in"
-"Iceland."
+msgstr ""
+"The association's magazine, Mynt, is published for the first time. It "
+"contains news of association activities, a variety of information about "
+"numismatics, and an auction catalog. Two social meetings are held a month, "
+"one a club meeting in Domus Medica and the other an auction meeting in a hall "
+"belonging to the I.O.O.F. in Iceland."
 
 #: templates/frontpage/timeline.html:121
 msgid "Félagar orðnir 350 talsins."
@@ -1030,16 +1047,18 @@ msgstr "Membership now totals 350."
 msgid ""
 "Fyrsti minnispeningur MÍ kemur út í tilefni af 10 ára afmæli félagsins. Efnt "
 "til afmælissýningar í Bogasal Þjóðminjasafns Íslands."
-msgstr "INA’s first commemorative coin is issued on the occasion of the association's"
-"10th anniversary. A birthday exhibition is held in the Bogasalur of the National"
-"Museum of Iceland."
+msgstr ""
+"INA’s first commemorative coin is issued on the occasion of the "
+"association's 10th anniversary. A birthday exhibition is held in the "
+"Bogasalur of the National Museum of Iceland."
 
 #: templates/frontpage/timeline.html:147
 msgid ""
 "MÍ heldur vel heppnaða myntsýningu og markað á Akureyri í samstarfi við "
 "félag frímerkjasafnara þar."
-msgstr "INA holds a successful coin exhibition and market in Akureyri in collaboration"
-"with the association of stamp collectors there."
+msgstr ""
+"INA holds a successful coin exhibition and market in Akureyri in "
+"collaboration with the association of stamp collectors there."
 
 #: templates/frontpage/timeline.html:162
 msgid ""
@@ -1056,38 +1075,45 @@ msgstr "INA takes part in the NORDIA-exhibition for the first time."
 msgid ""
 "Fyrsti safnararmarkaður MÍ haldinn í samstarfi við nokkur önnur félög "
 "safnara á Íslandi."
-msgstr "The first INA collector&#39;s market is held in collaboration with several other"
-"collectors' associations in Iceland."
+msgstr ""
+"The first INA collector&#39;s market is held in collaboration with several "
+"other collectors' associations in Iceland."
 
 #: templates/frontpage/timeline.html:200
 msgid ""
 "MÍ er í fyrsta skipti gestgjafi þings Norræna myntsambandsins. Tuttugu ára "
 "afmæli félagsins er fagnað með útgáfu minnispenings."
-msgstr "INA hosts the meeting of the Nordic Numismatic Union for the first time. The"
-"association's 20th anniversary is celebrated with the issue of a commemorative coin."
+msgstr ""
+"INA hosts the meeting of the Nordic Numismatic Union for the first time. "
+"The association's 20th anniversary is celebrated with the issue of a "
+"commemorative coin."
 
 #: templates/frontpage/timeline.html:215
 msgid ""
 "MÍ fær nýtt aðsetur í húsnæði Landssambands íslenzkra frímerkjasafnara í "
 "Síðumúla 17 og hefur frá þeim tíma haft þar helstu bækistöðvar fyrir "
 "starfsemi sína."
-msgstr "INA gets new headquarters at the premises of The Icelandic Stamp Collectors"
-"Federation at Síðumúla 17 and has had the main base for its operations there ever"
-"since."
+msgstr ""
+"INA gets new headquarters at the premises of The Icelandic Stamp "
+"Collectors Federation at Síðumúla 17 and has had the main base for its "
+"operations there ever since."
 
 #: templates/frontpage/timeline.html:226
 msgid ""
 "MÍ stendur að röð fræðslufunda, 7-10 á ári, næstu misseri um margvísleg efni "
 "sem tengjast söfnun."
-msgstr "INA organizes a series of educational meetings, 7-10 per year, for the next"
-"several semesters on various topics related to collecting."
+msgstr ""
+"INA organizes a series of educational meetings, 7-10 per year, for the "
+"next several semesters on various topics related to collecting."
 
 #: templates/frontpage/timeline.html:241
 msgid ""
 "MÍ heldur mjög vel heppnaða sýningu í Hafnarborg. Aukin breidd í söfnun "
 "félagsmanna kemur þar vel í ljós."
-msgstr "INA holds a very successful exhibition in Hafnarborg. The increased interest"
-"and large variety of collections of its members are clearly evident there."
+msgstr ""
+"INA holds a very successful exhibition in Hafnarborg. The increased "
+"interest and large variety of collections of its members are clearly evident "
+"there."
 
 #: templates/frontpage/timeline.html:252
 msgid "MÍ fikrar sig inn í tölvuöld með því að opna heimasíðu á netinu."
@@ -1097,25 +1123,28 @@ msgstr "INA enters the computer age by opening an online website."
 msgid ""
 "MÍ heldur glæsilega sýningu í Norræna húsinu. Fjölbreytnin í fyrirrúmi og "
 "aðsókn mjög góð."
-msgstr "INA holds an ambitious exhibition in the Nordic House in Reykjavík. Diversity"
-"is in the foreground and the attendance is excellent."
+msgstr ""
+"INA holds an ambitious exhibition in the Nordic House in Reykjavík. "
+"Diversity is in the foreground and the attendance is excellent."
 
 #: templates/frontpage/timeline.html:278
 msgid ""
 "MÍ kemur sér upp facebook-síðu til að koma á framfæri tilkynningum og "
 "fréttum af hefðbundnu starfi."
-msgstr "INA sets up a Facebook page to publish announcements and news about its"
-"operations and the world of collecting."
+msgstr ""
+"INA sets up a Facebook page to publish announcements and news about "
+"its operations and the world of collecting."
 
 #: templates/frontpage/timeline.html:293
 msgid ""
 "MÍ heldur metnaðarfulla sýningu í sal Ferðafélags Íslands í tilefni ef 50 "
 "ára afmæli félagsins. Sýningin fær mikla umfjöllun og athygli og staðfestir "
 "að félagið er öflugur vettvangur safnara af öllu tagi."
-msgstr "INA holds an outstanding exhibition in the hall of the Iceland Touring"
-"Association to mark its 50th anniversary. The exhibition receives a lot of media"
-"coverage and attention, confirming that INA is a powerful platform for collectors of all"
-"kinds in Iceland."
+msgstr ""
+"INA holds an outstanding exhibition in the hall of the Iceland "
+"Touring Association to mark its 50th anniversary. The exhibition receives a "
+"lot of media coverage and attention, confirming that INA is a powerful "
+"platform for collectors of all kinds in Iceland."
 
 #: templates/frontpage/timeline.html:304
 msgid "Fjöldi félaga 289."
@@ -1127,11 +1156,12 @@ msgid ""
 "út Mynt-blaðið og heldur tvo safnaramarkaði á ári, opna almenningi. Ný "
 "heimasíða tekin í notkun. Starfsemin er í traustum farvegi og faðmur "
 "félagsins breiður."
-msgstr "INA holds monthly auction meetings for its members, ten months a year,"
-"publishes the Mynt magazine, and holds two collectors&#39; markets a year, open to the"
-"public. A new website is launched. Its operation is on a steady course as before, and"
-"the association&#39;s reach in the world of collectors and collecting in Iceland is wide and"
-"welcoming."
+msgstr ""
+"INA holds monthly auction meetings for its members, ten months a year, "
+"publishes the Mynt magazine, and holds two collectors' markets a year, "
+"open to the public. A new website is launched. Its operation is on a steady "
+"course as before, and the association's reach in the world of collectors "
+"and collecting in Iceland is wide and welcoming."
 
 #: templates/sidebar/sidebar.html:24
 msgid "Um Félagið"
