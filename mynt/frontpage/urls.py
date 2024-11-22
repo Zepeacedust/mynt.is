@@ -1,7 +1,7 @@
 from django.urls import path
 
 
-from .views import index, hlekkir, tilgangur, umsokn, uppbod, saga, timeline, about
+from .views import index, hlekkir, tilgangur, umsokn, uppbod, saga, timeline, about, mynt_saga
 
 urlpatterns = [
     path("hlekkir", hlekkir.Hlekkir.as_view(), name="hlekkir"),
@@ -12,4 +12,5 @@ urlpatterns = [
     path("uppbod", uppbod.Uppbod.as_view(), name="uppbod"),
     path("saga", saga.Saga.as_view(), name="saga"),
     path("timeline", timeline.Timeline.as_view(), name="timeline"),
+    path("sedla_saga", mynt_saga.MyntSaga.as_view(), name="sedla_saga"),
 ]
