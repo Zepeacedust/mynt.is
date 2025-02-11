@@ -1,16 +1,8 @@
 {% extends "main.html" %}
 {% load markdown_rendering %}
 {% block body %}
-
-
-thumbnail start
-{{ post.thumbnail }}
-thumbnail end
 <h1> {{ post.title }} </h1>
-Author: {{ post.author.name }}
-
+Höfundur: {{ post.author.name }}
 <br>
-
 {{ post.content|show_markdown|safe }}
-
 {% endblock %}

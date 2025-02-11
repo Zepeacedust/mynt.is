@@ -17,4 +17,5 @@ class Post(models.Model):
     last_modifies = models.DateField(auto_now=True) 
     thumbnail = models.ImageField(null=True)
     content = MarkdownxField()
+    abstract = models.CharField(max_length=250, null = True)
     

@@ -4,15 +4,28 @@
 
 {% for post in posts %}
 <hr>
-{{ post.image }}
-{% if post.thumbnail != null %}
-thumbnail: {{ post.thumbnail }}
-{% endif %}
-<a href="/news/post/{{post.slug}}">
-    <h1> {{ post.title }} </h1>
-</a>
-Höfundur: {{ post.author.name }}
-Gefið út: {{post.date}}
-{% endfor %}
-<hr>
+    <div>
+        {% if post.thumbnail != null %}
+        <div>
+
+            <img src="/media/{{ post.thumbnail}}" alt="">
+        </div>
+        {% endif %}
+        <div>
+
+            <a href="/news/post/{{post.slug}}">
+                <h1> {{ post.title }} </h1>
+            </a>
+            {% if post.abstract != null%}
+            <p>
+                {{post.abstract}}
+            </p>
+            {% endif %}
+            <p>
+                Höfundur: {{ post.author.name }}, gefið út {{post.date}}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+    <hr>
 {% endblock %}
