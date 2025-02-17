@@ -1,6 +1,0 @@
-django
-django-markdownx==4.0.7
-pillow
-gunicorn==21.2.0
-psycopg2-binary==2.9.6
-django-environ==0.11.2

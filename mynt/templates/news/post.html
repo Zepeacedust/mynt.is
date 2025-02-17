@@ -1,8 +1,0 @@
-{% extends "main.html" %}
-{% load markdown_rendering %}
-{% block body %}
-<h1> {{ post.title }} </h1>
-Höfundur: {{ post.author.name }}
-<br>
-{{ post.content|show_markdown|safe }}
-{% endblock %}
