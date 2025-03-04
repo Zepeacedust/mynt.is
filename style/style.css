@@ -217,6 +217,7 @@ input.menu-burger:checked ~ svg line:nth-of-type(3) {
 }
 
 .LangSwitch {
-    color: #FFFFFF;
+    color: yellow;
     text-decoration: none;
 }
+
