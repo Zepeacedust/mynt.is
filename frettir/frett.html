@@ -7,8 +7,8 @@
         <!-- Breyttu titil hér -->
         Dæmafrétt
     </title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style/style.css">
 
 </head>
 
@@ -37,7 +37,7 @@
     <header>
         <div class="header_element" style="text-align: right;">
             <a href="/">
-                <img src="images/favicon.ico" alt="">
+                <img src="/images/favicon.ico" alt="">
             </a>
         </div>
         <div class="header_element" style="text-align: left;">
@@ -59,20 +59,38 @@
         <h1> Titill á frétt </h1>
         <p>
             <strong>Þessi texti er feitletraður</strong>
-            <i>Þessi texti er skáletraður</i>
+            <em>Þessi texti er skáletraður</em>
         </p>
 
         <h2> Þetta er undirfyrirsögn</h2>
         <p>
-            Hér er smá venjulegur texti, sem dæmi.
+            Hér er smá venjulegur texti, sem dæmi. p merkið lætur það vera sér málsgrein
         </p>
-        <p>
-            Til að setja inn mynd er gert svona
-            <img src="/images/Mynsafnarafelagidpenin.jpg" alt="Lýsingartexti, sýnist ef myndin finnst ekki og fyrir fólk sem notar skjálesara">
-        </p>
+        Til að setja inn mynd er gert svona
+        <img
+	  class="figure"
+	  src="/images/Mynsafnarafelagidpenin.jpg"
+	  alt="Lýsingartexti, sýnist ef myndin finnst ekki og fyrir fólk sem notar skjálesara"
+	  width=50%
+	  >
+
+	<!--Ekki breyta fyrir neðan þetta -->
+
+	<footer>
+        <div class="footer_element">
+            <img src="/images/favicon.ico" alt="">
+        </div>
+        <div class="footer_element">
+            <p>Myntsafnarafélag Íslands</p>
+            <p>Síðumúla 17 125 Reykjavík</p>
+            <p>E-mail: <a href="mailto:myntsafnarafelagid@gmail.com">myntsafnarafelagid@gmail.com</a></p>
+            <p><a href="www.facebook.com/myntsafnarafelag.islands/">Við erum á facebook</a></p>
+            <p><a href="/umsokn.html">Gerast meðlimur</a></p>
+        </div>
+    </footer>
     </div>
-    <!--Ekki breyta fyrir neðan þetta -->
-    <script type="text/javascript" src="js/sidebar.js"></script>
+    <script type="text/javascript" src="/js/sidebar.js"></script>
+
 </body>
 
 </html>
