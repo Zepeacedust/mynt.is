@@ -225,3 +225,15 @@ input.menu-burger:checked ~ svg line:nth-of-type(3) {
 .figure { 
     margin:auto;
 }
+.figbox {text-align: center}
+figure {
+  background: #ddd;
+  display: inline-block;
+  img {
+    max-width: 95%;
+    padding: 1em 1em 0em 1em;
+  }
+  max-width: 95%;
+  padding: 0 0 1em 0;
+  border: solid black 0.1em;
+}
